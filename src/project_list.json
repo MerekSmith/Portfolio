@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Trivia Game",
+    "description": "This is a fun, trivia game. It is connected to a public trivia API that allows for several choices to be made such as difficulty and topic. The game also includes timers that help move that game forward.",
+    "technologies": "HTML, CSS, Timers, and an API",
+    "link": "https://mereksmith.github.io/TriviaGame/",
+    "type": "School"
+  },
+  {
+    "title": "The Simpsons Memory Game",
+    "description": "This is a fun, memory game where you try to select a different character each time without selecting a duplicate. This was created using a JSON file that contains 54 Simpsons characters that are randomly selected each time. The game keeps track of the high score during each session.",
+    "technologies": "React.",
+    "link": "https://pacific-ravine-66628.herokuapp.com/",
+    "type": "School"
+  },
+  {
+    "title": "Barcode (Project 2)",
+    "description": "This was my 2nd team project that was designed to be a web based inventory management system. It can allow an employee to enter in new items easily and allows consumers to instantly see an item that is now available for sale.",
+    "technologies": "Handlebars, SQL Server, Node, and Express.",
+    "link": "https://barcode-inventory.herokuapp.com/item",
+    "type": "School"
+  },
+  {
+    "title": "Price It (Project 1)",
+    "description": "This was my first team project and was created as a tool to find the lowest price on an item. This was connected to three APIs including Amazon, Walmart, and eBay. The Amazon API was the most challenging to set up. ",
+    "technologies": "HTML, CSS, and API connections.",
+    "link": "https://mereksmith.github.io/PriceIt/",
+    "type": "School"
+  },
+  {
+    "title": "The Colony (Project 3)",
+    "description": "This was my third team project. It is meant to be a game similiar to Jackbox and One Night Ultimate Wearwolf. The site is meant to act as the motirator for the game and would allow people to connect using their phones. Timers would be used to move the game along and allow players to vote and do some actions on their phones. The website was not get completed and does not really function. It will allow players to connect via socket.io but the game does not play.",
+    "technologies": "React, Redux, Socket.io, MongoDB, Mongoose, Express, and Node.",
+    "link": "https://voyage-mandarine-71760.herokuapp.com/",
+    "type": "School"
+  },
+  {
+    "title": "Rock Paper Scissors Multiplayer",
+    "description": "This is a multiplayer game of Rock, Paper, Scissors using Firebase as the database and server for multiple user connections. 2 players can join into the game and play along with chat together using the chat box.",
+    "technologies": "HTML, CSS, and Firebase.",
+    "link": "https://mereksmith.github.io/RPS-Multiplayer/",
+    "type": "School"
+  },
+  {
+    "title": "New York Times Article Scrapper",
+    "description": "This site uses the New Yort Times API to pull articles based on what search criteria is provided. Once search results are available, you can then save the article to the database and save notes that go with each article. Each time an article is saved, socket.io is used to alert other users that a new article is in the saved articles section. There is also a bonus countdown timer that is just a demonstration of socket.io. The timer will be the same for every user on the site and continues to reset after 30 seconds.",
+    "technologies": "Reach, MongoDB, Mongoose, Node, and Express.",
+    "link": "https://gentle-garden-91780.herokuapp.com/",
+    "type": "School"
+  },
+  {
+    "title": "Giphy API!",
+    "description": "This site connects to a Giphy API and allows users to populate the page with 10 gif images that can be paused and played when clicked. It starts with some generic buttons but users can type in anything they would like to search for, create a new button, then click on it to see their gif results. This also uses local storage to save buttons that the user has created but are unique to that computer. This is just some plain, dumb, time-wasting fun!",
+    "technologies": "HTML, CSS, Bootstrap, API, and Local Storage.",
+    "link": "https://mereksmith.github.io/GiphyAPI/",
+    "type": "School"
+  },
+  {
+    "title": "Eat da Burger!",
+    "description": "This site simply allows users to create a burger then click on it to either eat it or remake it. As the user does this it moves the burger name to the Devoured section to the To-Be Devoured section.",
+    "technologies": "HTML, CSS, SQL Server.",
+    "link": "https://pacific-everglades-50512.herokuapp.com/",
+    "type": "School"
+  },
+  {
+    "title": "The Psychic Game",
+    "description": "This simple game has you type in a letter from the keyboard to try and match a randomly picked letter from the computer. You have 9 chances to make a correct guess. The game will tell you if you got it right, wrong, or if you selected a letter already used. If you don't guess correctly, it will tell you what the letter was and then reset with a new random letter.",
+    "technologies": "HTML, jQuery.",
+    "link": "https://mereksmith.github.io/Psychic-Game/",
+    "type": "School"
+  }
+]

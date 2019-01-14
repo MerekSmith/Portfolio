@@ -30,15 +30,15 @@ const Navbar = props => (
         <Link className="nav-item nav-link active" to="/">
           Home <span className="sr-only">(current)</span>
         </Link>
-        <Link className="nav-item nav-link active" to="/">
+        <Link className="nav-item nav-link active" to="/about">
           About Me
         </Link>
-        <Link className="nav-item nav-link active" to="/">
+        <Link className="nav-item nav-link active" to="/projects">
           Projects
         </Link>
         <Link
           className="nav-item nav-link active"
-          to="/"
+          to="/contact"
           aria-disabled="true"
         >
           Contact
