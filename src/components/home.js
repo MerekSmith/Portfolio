@@ -12,21 +12,37 @@ export default class Home extends Component {
       <div className="home">
         {/* <LazyHero imageSrc={ironman}> */}
         <div className="homeContents">
-          <h1>Full Stack Development by Merek Smith</h1>
+          <h1 data-aos="fade-right">Full Stack Development by Merek Smith</h1>
           <div className="iconGroup">
             <a
               href="https://www.github.com/MerekSmith"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={github} className="icons" alt="GitHub" />
+              <img
+                src={github}
+                className="icons"
+                alt="GitHub"
+                data-aos="fade-right"
+                data-aos-offset="320"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-sine"
+              />
             </a>
             <a
               href="https://www.linkedin.com/in/merek-smith/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={linkedIn} className="icons" alt="LinkedIn" />
+              <img
+                src={linkedIn}
+                className="icons"
+                alt="LinkedIn"
+                data-aos="fade-right"
+                data-aos-offset="320"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-sine"
+              />
             </a>
             <a
               href="https://stackoverflow.com/users/9142901/merek-smith"
@@ -37,6 +53,10 @@ export default class Home extends Component {
                 src={stackedOverflow}
                 className="icons"
                 alt="Stack Overflow"
+                data-aos="fade-right"
+                data-aos-offset="320"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-sine"
               />
             </a>
           </div>

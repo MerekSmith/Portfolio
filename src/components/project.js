@@ -9,7 +9,7 @@ const Project = props => (
   <ul className="stage clearfix">
     {projectArray.map((project, index) => {
       return (	
-        <li className="scene" key={index}>
+        <li className="scene" data-aos="zoom-in-up" data-aos-duration="1500" key={index}>
           <a href={project.link} target="_blank" rel="noopener noreferrer">
             <div className="movie">
               <div className="poster" />

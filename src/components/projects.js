@@ -6,6 +6,7 @@ import "../css/shadowbox/normalize.css";
 import Project from "./project";
 
 
+
 const Projects = props => (
   <div className="container-fluid projects">
     <header>

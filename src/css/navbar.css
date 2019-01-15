@@ -1,4 +1,5 @@
 .sticky-nav {
   position: sticky;
   top: 0;
+  z-index: 999; /*This makes the navbar always be in front (everything goes under it as you scroll up) */
 }
