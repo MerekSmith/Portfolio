@@ -15,7 +15,7 @@ export default class Home extends Component {
           <h1>Full Stack Development by Merek Smith</h1>
           <div className="iconGroup">
             <a
-              href="github.com/MerekSmith"
+              href="https://www.github.com/MerekSmith"
               target="_blank"
               rel="noopener noreferrer"
             >

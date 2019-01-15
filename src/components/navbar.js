@@ -41,7 +41,7 @@ const Navbar = props => (
           to="/contact"
           aria-disabled="true"
         >
-          Contact
+          Contact Me
         </Link>
       </div>
     </div>
