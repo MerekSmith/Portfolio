@@ -58,7 +58,7 @@
   {
     "title": "Eat da Burger!",
     "description": "This site simply allows users to create a burger then click on it to either eat it or remake it. As the user does this it moves the burger name to the Devoured section to the To-Be Devoured section.",
-    "technologies": "HTML, CSS, SQL Server.",
+    "technologies": "HTML, CSS, Javascript, SQL Server.",
     "link": "https://pacific-everglades-50512.herokuapp.com/",
     "type": "School"
   },
@@ -67,6 +67,20 @@
     "description": "This simple game has you type in a letter from the keyboard to try and match a randomly picked letter from the computer. You have 9 chances to make a correct guess. The game will tell you if you got it right, wrong, or if you selected a letter already used. If you don't guess correctly, it will tell you what the letter was and then reset with a new random letter.",
     "technologies": "HTML, jQuery.",
     "link": "https://mereksmith.github.io/Psychic-Game/",
+    "type": "School"
+	},
+	{
+    "title": "Constructor Hangman (Node)",
+    "description": "A hangman game made using constructors and node.js. This only runs in Node on a command prompt window. There are some color coding that helps prompt the user when the letter is correct or incorrect along with how many guesses remain.",
+    "technologies": "Node.js, jQuery.",
+    "link": "https://github.com/MerekSmith/Constructor_Hangman",
+    "type": "School"
+	},
+	{
+    "title": "DigitalPal",
+    "description": "This is a tamagotchi type app where you can make choices of how to take care of a digital pet. It is only played through Node and a command prompt window.",
+    "technologies": "Javascript, Inquirer, Node.js.",
+    "link": "https://github.com/MerekSmith/DigitalPal",
     "type": "School"
   }
 ]

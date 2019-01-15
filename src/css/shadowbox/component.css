@@ -188,7 +188,7 @@ Posters and still images
 **************************************/
 
 .scene:nth-child(1) .movie .poster {
-	background-image: url(../../assets/images/projects/trivia_game.JPG);
+	background-image: url(../../assets/images/projects/trivia_game.jpg);
 }
 
 .scene:nth-child(2) .movie .poster {
@@ -196,11 +196,11 @@ Posters and still images
 }
 
 .scene:nth-child(3) .movie .poster {
-  background-image: url(../../assets/images/projects/barcode.JPG);
+  background-image: url(../../assets/images/projects/barcode-scanner.jpg);
 }
 
 .scene:nth-child(4) .movie .poster {
-  background-image: url(../../assets/images/projects/priceit.JPG);
+  background-image: url(../../assets/images/projects/PriceItLogo.png);
 }
 
 .scene:nth-child(5) .movie .poster {
@@ -208,11 +208,11 @@ Posters and still images
 }
 
 .scene:nth-child(6) .movie .poster {
-  background-image: url(../../assets/images/projects/rps_game.JPG);
+  background-image: url(../../assets/images/projects/rps_game.png)
 }
 
 .scene:nth-child(7) .movie .poster {
-  background-image: url(../../assets/images/projects/nyt_articles.JPG);
+  background-image: url(../../assets/images/projects/nyt_articles.png);
 }
 
 .scene:nth-child(8) .movie .poster {
@@ -225,6 +225,14 @@ Posters and still images
 
 .scene:nth-child(10) .movie .poster {
   background-image: url(../../assets/images/projects/pyschic_game.JPG);
+}
+
+.scene:nth-child(11) .movie .poster {
+  background-image: url(../../assets/images/projects/constuctor_hangman.jpg);
+}
+
+.scene:nth-child(12) .movie .poster {
+  background-image: url(../../assets/images/projects/digitalpal.jpg);
 }
 
 /* .scene:nth-child(1) .info header {
