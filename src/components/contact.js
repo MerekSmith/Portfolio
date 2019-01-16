@@ -3,6 +3,10 @@ import React, { Component } from "react";
 import "../css/contact.css";
 import PropTypes from 'prop-types';
 
+<<<<<<< HEAD
+=======
+const API_PATH = '/index.php';
+>>>>>>> 56d353bdb72113a15f10e6f03283c98463b8ecd5
 
 export default class Contact extends Component {
 
