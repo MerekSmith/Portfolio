@@ -49,7 +49,12 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
-  <script src="%PUBLIC_URL%/assets/contact.js"></script>
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.1.0/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("%REACT_APP_EMAILJS_USERID%");
+    })();
+  </script>
 </body>
 
 </html>

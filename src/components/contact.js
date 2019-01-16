@@ -1,47 +1,82 @@
 import React, { Component } from "react";
-import axios from 'axios';
+// import axios from 'axios';
 import "../css/contact.css";
+import PropTypes from 'prop-types';
 
-const API_PATH = 'http://localhost/react-contact-form/api/contact/index.php';
 
-class Contact extends Component {
+export default class Contact extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
             fname: '',
             lname: '',
-            email: '',
+            senderEmail: '',
             message: '',
             mailSent: false,
             error: null
         }
 
         this.handleFormSubmit.bind(this);
+
     }
 
-    handleFormSubmit = e => {
-        e.preventDefault();
-        axios({
-            method: 'post',
-            url: `${API_PATH}`,
-            headers: { 'content-type': 'application/json' },
-            data: this.state
-        })
-            .then(result => {
-                this.setState({
-                    mailSent: result.data.sent
-                })
-            })
-            .catch(error => this.setState({ error: error.message }));
+
+
+
+
+    handleFormSubmit = event => {
+        event.preventDefault();
+
+        const receiverEmail = 'merekrissy@gmail.com'
+        const template = 'template_ddz3ZhfC';
+
+        // const {
+        //     REACT_APP_EMAILJS_RECEIVER: receiverEmail,
+        //     REACT_APP_EMAILJS_TEMPLATEID: template
+        // } = this.props.env;
+
+        this.sendMessage(
+            template,
+            this.state.senderEmail,
+            this.state.fname,
+            this.state.lname,
+            receiverEmail,
+            this.state.message
+        );
+
+        this.setState({
+            mailSent: true
+        });
     };
 
+    sendMessage(templateId, senderEmail, fname, lname, receiverEmail, message) {
+        window.emailjs
+            .send('mailgun', templateId, {
+                senderEmail,
+                receiverEmail,
+                fname,
+                lname,
+                message
+            })
+            .then(res => {
+                this.setState({
+                    formEmailSent: true,
+                    fname: '',
+                    lname: '',
+                    senderEmail: '',
+                    message: ''
+                });
+            })
+            // Handle errors here however you like
+            .catch(err => console.error('Failed to send message. Error: ', err));
+    }
 
 
     render() {
         return (
             <div className="contact container">
-                <form id="contact-form" action="#">
+                <form id="contact-form" onSubmit={e => this.handleFormSubmit(e)}>
 
                     <div className="messages"></div>
 
@@ -95,8 +130,8 @@ class Contact extends Component {
                                         placeholder="Please enter your email *"
                                         required="required"
                                         data-error="Valid email is required."
-                                        value={this.state.email}
-                                        onChange={e => this.setState({ email: e.target.value })}
+                                        value={this.state.senderEmail}
+                                        onChange={e => this.setState({ senderEmail: e.target.value })}
                                     />
                                     <div className="help-block with-errors"></div>
                                 </div>
@@ -124,7 +159,6 @@ class Contact extends Component {
                                     type="submit"
                                     className="btn btn-success btn-send"
                                     value="Send message"
-                                    onClick={e => this.handleFormSubmit(e)}
                                 />
                             </div>
                         </div>
@@ -137,7 +171,7 @@ class Contact extends Component {
                     </div>
                     <div>
                         {this.state.mailSent &&
-                            <div className="sucsess">Thank you for contcting me.</div>
+                            <div className="sucsess">Thank you for contacting me.</div>
                         }
                         {this.state.error &&
                             <div className="error">Sorry we had some problems.</div>
@@ -149,4 +183,7 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+// Contact.propTypes = {
+//     env: PropTypes.object.isRequired
+//   };
+
