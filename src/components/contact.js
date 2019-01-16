@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import axios from 'axios';
 import "../css/contact.css";
 
-const API_PATH = 'http://localhost/react-contact-form/api/contact/index.php';
+const API_PATH = '/index.php';
 
 class Contact extends Component {
 
