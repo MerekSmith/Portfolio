@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-// import axios from 'axios';
 import "../css/contact.css";
-import PropTypes from 'prop-types';
 
 
 export default class Contact extends Component {
@@ -182,8 +180,3 @@ export default class Contact extends Component {
         );
     }
 }
-
-// Contact.propTypes = {
-//     env: PropTypes.object.isRequired
-//   };
-
