@@ -1,22 +1,44 @@
 body {
     background-color: white;
+    background-image: url("../assets/images/background_rainbow_space.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contact {
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    max-width: 700px;
+}
+
+.header {
+    width: 50%;  
+    margin: auto;
+    margin-top: 40px;  
+    margin-bottom: 40px;  
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
 }
 
 h1 {
+    color: grey;
+    width: 100%;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0px;
 }
 
 form {
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .form-control {
-    background-color: rgba(0, 0, 0, 0.2)
+    background-color: rgba(0, 0, 0, 0.7)
     /* opacity: .5; */
+}
+
+.form-group {
+    margin: 0px;
 }
 
 .col-md-6, .col-md-12 {
@@ -34,14 +56,14 @@ form {
 
 .send-button {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .btn {
     width: 200px;
 }
 
-input::placeholder {
+input:placeholder {
     color: red;
   }
 

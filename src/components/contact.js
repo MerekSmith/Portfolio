@@ -71,9 +71,9 @@ export default class Contact extends Component {
     render() {
         return (
             <div className="contact container">
-
-                <h1>Send Me a Message</h1>
-
+                <div className="header">
+                    <h1>Send Me a Message</h1>
+                </div>
                 <form id="contact-form" onSubmit={e => this.handleFormSubmit(e)}>
 
                     <div className="messages"></div>
