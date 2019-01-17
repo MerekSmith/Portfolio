@@ -7,9 +7,9 @@ import About from "./components/about";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import "./App.css";
-import "./css/navbar.css";
-import "./css/home.css";
-import "./css/about.css";
+// import "./css/navbar.css";
+// import "./css/home.css";
+// import "./css/about.css";
 import AOS from 'aos';
 
 AOS.init();

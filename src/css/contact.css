@@ -19,7 +19,7 @@ form {
     /* opacity: .5; */
 }
 
-.col-md-6 .col-md-12 {
+.col-md-6, .col-md-12 {
     padding: 5px;
 }
 

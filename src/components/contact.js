@@ -72,7 +72,7 @@ export default class Contact extends Component {
         return (
             <div className="contact container">
 
-                <h1>Call Me Maybe</h1>
+                <h1>Send Me a Message</h1>
 
                 <form id="contact-form" onSubmit={e => this.handleFormSubmit(e)}>
 
