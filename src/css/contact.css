@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+}
+
+.contact {
+    margin-top: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 40px;
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.2)
+    /* opacity: .5; */
+}
+
+.col-md-6 .col-md-12 {
+    padding: 5px;
+}
+
+.message-form {
+    margin-bottom: 0px;
+}
+
+.required-text {
+    margin: 0px;
+    padding: 0px;
+}
+
+.send-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn {
+    width: 200px;
+}
+
+input::placeholder {
+    color: red;
+  }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: pink;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: pink;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: pink;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: pink;
+  }

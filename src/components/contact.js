@@ -7,8 +7,8 @@ export default class Contact extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            fname: '',
-            lname: '',
+            name: '',
+            phone: '',
             senderEmail: '',
             message: '',
             mailSent: false,
@@ -18,9 +18,6 @@ export default class Contact extends Component {
         this.handleFormSubmit.bind(this);
 
     }
-
-
-
 
 
     handleFormSubmit = event => {
@@ -37,8 +34,8 @@ export default class Contact extends Component {
         this.sendMessage(
             template,
             this.state.senderEmail,
-            this.state.fname,
-            this.state.lname,
+            this.state.name,
+            this.state.phone,
             receiverEmail,
             this.state.message
         );
@@ -48,20 +45,20 @@ export default class Contact extends Component {
         });
     };
 
-    sendMessage(templateId, senderEmail, fname, lname, receiverEmail, message) {
+    sendMessage(templateId, senderEmail, name, phone, receiverEmail, message) {
         window.emailjs
             .send('mailgun', templateId, {
                 senderEmail,
                 receiverEmail,
-                fname,
-                lname,
+                name,
+                phone,
                 message
             })
             .then(res => {
                 this.setState({
                     formEmailSent: true,
-                    fname: '',
-                    lname: '',
+                    name: '',
+                    phone: '',
                     senderEmail: '',
                     message: ''
                 });
@@ -74,6 +71,9 @@ export default class Contact extends Component {
     render() {
         return (
             <div className="contact container">
+
+                <h1>Call Me Maybe</h1>
+
                 <form id="contact-form" onSubmit={e => this.handleFormSubmit(e)}>
 
                     <div className="messages"></div>
@@ -83,34 +83,32 @@ export default class Contact extends Component {
                         <div className="row">
                             <div className="col-md-6">
                                 <div className="form-group">
-                                    <label htmlFor="form_name">Firstname *</label>
+                                    {/* <label htmlFor="form_name">Firstname *</label> */}
                                     <input
                                         id="form_name"
                                         type="text"
                                         name="name"
                                         className="form-control"
-                                        placeholder="Please enter your firstname *"
+                                        placeholder="Name *"
                                         required="required"
-                                        data-error="Firstname is required."
-                                        value={this.state.fname}
-                                        onChange={e => this.setState({ fname: e.target.value })}
+                                        data-error="Name is required."
+                                        value={this.state.name}
+                                        onChange={e => this.setState({ name: e.target.value })}
                                     />
                                     <div className="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div className="col-md-6">
                                 <div className="form-group">
-                                    <label htmlFor="form_lastname">Lastname *</label>
+                                    {/* <label htmlFor="form_lastname">Lastname *</label> */}
                                     <input
-                                        id="form_lastname"
+                                        id="form_phone"
                                         type="text"
-                                        name="surname"
+                                        name="phone"
                                         className="form-control"
-                                        placeholder="Please enter your lastname *"
-                                        required="required"
-                                        data-error="Lastname is required."
-                                        value={this.state.lname}
-                                        onChange={e => this.setState({ lname: e.target.value })}
+                                        placeholder="Phone"
+                                        value={this.state.phone}
+                                        onChange={e => this.setState({ phone: e.target.value })}
                                     />
                                     <div className="help-block with-errors"></div>
                                 </div>
@@ -119,13 +117,13 @@ export default class Contact extends Component {
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="form-group">
-                                    <label htmlFor="form_email">Email *</label>
+                                    {/* <label htmlFor="form_email">Email *</label> */}
                                     <input
                                         id="form_email"
                                         type="email"
                                         name="email"
                                         className="form-control"
-                                        placeholder="Please enter your email *"
+                                        placeholder="Email *"
                                         required="required"
                                         data-error="Valid email is required."
                                         value={this.state.senderEmail}
@@ -137,22 +135,31 @@ export default class Contact extends Component {
                         </div>
                         <div className="row">
                             <div className="col-md-12">
-                                <div className="form-group">
-                                    <label htmlFor="form_message">Message *</label>
+                                <div className="form-group message-form">
+                                    {/* <label htmlFor="form_message">Message *</label> */}
                                     <textarea
                                         id="form_message"
                                         name="message"
                                         className="form-control"
-                                        placeholder="Message for me *"
+                                        placeholder="Write your message here. *"
                                         rows="4" required="required"
-                                        data-error="Please, leave us a message."
+                                        data-error="Please, leave me a message."
                                         value={this.state.message}
                                         onChange={e => this.setState({ message: e.target.value })}
                                     ></textarea>
                                     <div className="help-block with-errors"></div>
                                 </div>
                             </div>
-                            <div className="col-md-12">
+                        </div>
+                        {/* Submit button */}
+                        <div className="row required-text">
+                            <div className="col-md-12 required-text">
+                                <p className="text-muted required-text">
+                                    <strong>*</strong> These fields are required.</p>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-12 send-button">
                                 <input
                                     type="submit"
                                     className="btn btn-success btn-send"
@@ -160,19 +167,13 @@ export default class Contact extends Component {
                                 />
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="col-md-12">
-                                <p className="text-muted">
-                                    <strong>*</strong> These fields are required.</p>
-                            </div>
-                        </div>
                     </div>
                     <div>
                         {this.state.mailSent &&
-                            <div className="sucsess">Thank you for contacting me.</div>
+                            <div className="sucsess animated tada">Thank you for contacting me.</div>
                         }
                         {this.state.error &&
-                            <div className="error">Sorry we had some problems.</div>
+                            <div className="error animated bounceInLeft" >Sorry we had some problems.</div>
                         }
                     </div>
                 </form>

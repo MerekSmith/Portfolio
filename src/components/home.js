@@ -10,10 +10,9 @@ export default class Home extends Component {
   render() {
     return (
       <div className="home">
-        {/* <LazyHero imageSrc={ironman}> */}
         <div className="homeContents">
-          <h1 data-aos="fade-right">Full Stack Development by Merek Smith</h1>
-          <div className="iconGroup">
+          <h1 className="animated bounceInLeft">Full Stack Web Development by Merek Smith</h1>
+          <div className="iconGroup animated bounceInLeft">
             <a
               href="https://www.github.com/MerekSmith"
               target="_blank"
@@ -23,10 +22,9 @@ export default class Home extends Component {
                 src={github}
                 className="icons"
                 alt="GitHub"
-                data-aos="fade-right"
-                data-aos-offset="320"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-sine"
+                // data-aos="fade-right"
+                // data-aos-duration="1000"
+                // data-aos-easing="ease-in-sine"
               />
             </a>
             <a
@@ -38,10 +36,9 @@ export default class Home extends Component {
                 src={linkedIn}
                 className="icons"
                 alt="LinkedIn"
-                data-aos="fade-right"
-                data-aos-offset="320"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-sine"
+                // data-aos="fade-right"
+                // data-aos-duration="1000"
+                // data-aos-easing="ease-in-sine"
               />
             </a>
             <a
@@ -53,15 +50,13 @@ export default class Home extends Component {
                 src={stackedOverflow}
                 className="icons"
                 alt="Stack Overflow"
-                data-aos="fade-right"
-                data-aos-offset="320"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-sine"
+                // data-aos="fade-right"
+                // data-aos-duration="1000"
+                // data-aos-easing="ease-in-sine"
               />
             </a>
           </div>
         </div>
-        {/* </LazyHero> */}
       </div>
     );
   }
