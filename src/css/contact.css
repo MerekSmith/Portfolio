@@ -1,81 +1,92 @@
-body {
-    background-color: white;
-    background-image: url("../assets/images/background_rainbow_space.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* body {
+  background-color: black;
+  background-image: url("../assets/images/background_rainbow_space.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+} */
+
+.hero-header-container {
+  background: url("../assets/images/background_rainbow_space.jpg") no-repeat center;
+  background-size: cover;
+	height: 100vh;
+	/* width: 100vw; */
+	position: relative;
+	overflow: hidden;
+  /* Useful for any “absolute” positioned elements inside */
 }
 
 .contact {
-    /* margin-top: 40px; */
-    max-width: 700px;
+  padding-top: 40px;
+  max-width: 700px;
 }
 
 .header {
-    width: 50%;  
-    margin: auto;
-    margin-top: 40px;  
-    margin-bottom: 40px;  
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
+  width: 50%;
+  margin: auto;
+  /* margin-top: 40px; */
+  margin-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  color: grey;
 }
 
-h1 {
-    color: grey;
-    width: 100%;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    margin: 0px;
-}
-
-form {
-    /* margin-top: 40px; */
+.contact-header {
+  width: 100%;
+  text-align: center;
+  margin: 0px;
 }
 
 .form-control {
-    background-color: rgba(0, 0, 0, 0.7)
-    /* opacity: .5; */
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .form-group {
-    margin: 0px;
+  margin: 0px;
 }
 
-.col-md-6, .col-md-12 {
-    padding: 5px;
+.col-md-6,
+.col-md-12 {
+  padding: 5px;
 }
 
 .message-form {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .required-text {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .send-button {
-    text-align: center;
-    margin-top: 5px;
+  text-align: center;
+  margin-top: 5px;
 }
 
 .btn {
-    width: 200px;
+  width: 200px;
 }
 
 input:placeholder {
-    color: red;
-  }
+  color: red;
+}
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: pink;
-  }
-  ::-moz-placeholder { /* Firefox 19+ */
-    color: pink;
-  }
-  :-ms-input-placeholder { /* IE 10+ */
-    color: pink;
-  }
-  :-moz-placeholder { /* Firefox 18- */
-    color: pink;
-  }
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: pink;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: pink;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: pink;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: pink;
+}

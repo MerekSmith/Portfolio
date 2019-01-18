@@ -188,7 +188,7 @@ Posters and still images
 **************************************/
 
 .scene:nth-child(1) .movie .poster {
-	background-image: url(../../assets/images/projects/trivia_game.JPG);
+	background-image: url(../../assets/images/projects/trivia_game.jpg);
 }
 
 .scene:nth-child(2) .movie .poster {
