@@ -1,21 +1,23 @@
-/* body {
-  background-color: black;
-  background-image: url("../assets/images/background_rainbow_space.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-} */
 
-.hero-header-container {
+.hero-contact-container {
   background: url("../assets/images/background_rainbow_space.jpg") no-repeat center;
   background-size: cover;
-	height: 100vh;
+	height: 120vh;
 	/* width: 100vw; */
-	position: relative;
+	/* position: relative; */
 	overflow: hidden;
   /* Useful for any “absolute” positioned elements inside */
 }
+
+/* .hero-header-container:before {
+  background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.8));
+  content: "";
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+} */
 
 .contact {
   padding-top: 40px;
@@ -68,25 +70,4 @@
 
 .btn {
   width: 200px;
-}
-
-input:placeholder {
-  color: red;
-}
-
-::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  color: pink;
-}
-::-moz-placeholder {
-  /* Firefox 19+ */
-  color: pink;
-}
-:-ms-input-placeholder {
-  /* IE 10+ */
-  color: pink;
-}
-:-moz-placeholder {
-  /* Firefox 18- */
-  color: pink;
 }

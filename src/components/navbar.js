@@ -11,7 +11,8 @@ const Navbar = props => (
 			src={favicon}
         width="30px"
         height="30px"
-        alt=""
+        alt="M"
+        className="favicon animated flip"
       />
     </Link>
     <button

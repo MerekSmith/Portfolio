@@ -1,9 +1,82 @@
-.about {
-  background-image: url("../assets/images/background_avengers.jpg");
-  background-position: center;
+
+
+/* .about {
+
+} */
+
+/* html, body {
+  height: 100%;
+} */
+
+.parallax { 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-	height: 800px;
-	padding-top: 25px;
+  position: relative;
+  background-position-y: 58px;
+
 }
+
+.parallax-caption {
+  position: absolute;
+  /* left: 0; */
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.bg1 {
+ /* The image used */
+ background-image: url("../assets/images/parallax_dc_superheroes.jpg");
+
+ /* Set a specific height */
+ min-height: 550px;
+ opacity: .8;
+}
+
+.about-me {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.bg2 {
+ /* The image used */
+ background-image: url("../assets/images/parallax_avengers.jpg");
+
+ /* Set a specific height */
+ height: 300px;
+ opacity: .8;
+}
+
+
+
+.bg3 {
+  /* The image used */
+  background-image: url("../assets/images/parallax_justice_league.jpg");
+ 
+  /* Set a specific height */
+  height: 500px;
+  opacity: .8;
+ }

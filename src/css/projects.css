@@ -1,3 +1,15 @@
+
+.hero-project-container {
+	background: url("../assets/images/background_sunset_boardwalk.jpg") no-repeat center;
+	background-size: cover;
+	/* height: 120vh; */
+	overflow: hidden;
+	/* width: 100vw; */
+	/* position: relative; */
+	/* Useful for any “absolute” positioned elements inside */
+}
+
 header {
 	text-align: center;
 }
+

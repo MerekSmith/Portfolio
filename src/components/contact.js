@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Navbar from "./navbar";
 import "../css/contact.css";
 
 export default class Contact extends Component {
@@ -66,8 +65,7 @@ export default class Contact extends Component {
 
   render() {
     return (
-      <div className="hero-header-container">
-        <Navbar />
+      <div className="hero-contact-container">
         <div className="contact container">
           <div className="header animated fadeInDownBig">
             <h1 className="contact-header">Send Me a Message</h1>

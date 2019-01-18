@@ -8,12 +8,14 @@ import Project from "./project";
 
 
 const Projects = props => (
-  <div className="container-fluid projects">
-    <header>
-      <h1>Recent Projects</h1>
-    </header>
-    <div className="wrapper">
-      <Project />
+  <div className="hero-project-container">
+    <div className="container-fluid projects">
+      <header>
+        <h1>Recent Projects</h1>
+      </header>
+      <div className="wrapper">
+        <Project />
+      </div>
     </div>
   </div>
 );

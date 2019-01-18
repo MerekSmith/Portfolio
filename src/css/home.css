@@ -13,17 +13,31 @@
 }
 
 .iconGroup {
-  margin: 5px;
+  margin-top: 80px;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.hero-home-container {
+  background: url("../assets/images/background_iron_man.jpg") no-repeat center;
+  background-size: cover;
+	height: 110vh;
+	/* width: 100vw; */
+	/* position: relative; */
+	/* overflow: hidden; */
+  /* Useful for any “absolute” positioned elements inside */
 }
 
 .home {
-  background-image: url("../assets/images/background_iron_man.jpg");
+  /* background-image: url("../assets/images/background_iron_man.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-	height: 800px;
-	padding-top: 25px;
+	height: 800px; */
+	padding-top: 15px;
 }
 
 .homeContents {
