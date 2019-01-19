@@ -60,7 +60,12 @@ export default class Contact extends Component {
         });
       })
       // Handle errors here however you like
-      .catch(err => console.error("Failed to send message. Error: ", err));
+      .catch(
+				// err => console.error("Failed to send message. Error: ", err)
+				this.setState({
+          error: true
+        })
+			);
   }
 
   render() {
