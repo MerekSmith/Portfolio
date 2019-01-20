@@ -48,10 +48,10 @@ h2 {
 
 .bg1 {
  /* The image used */
- background-image: url("../assets/images/parallax_iron_man.jpg");
+ background-image: url("../assets/images/background_ironman_vs_cap.jpg");
 
  /* Set a specific height */
- min-height: 675px;
+ min-height: 600px;
  opacity: .8;
 }
 
@@ -65,14 +65,14 @@ h2 {
 
 .bg2 {
  /* The image used */
- background-image: url("../assets/images/parallax_avengers.jpg");
+ background-image: url("../assets/images/parallax_dc_jl_lineup.jpg");
 
  /* Set a specific height */
  height: 300px;
  opacity: .8;
 }
 
-.work {
+.work { 
   color: #ddd;
   background-color: #282E34;
   padding: 50px 80px;
@@ -85,8 +85,47 @@ h2 {
 
 .bg3 {
   /* The image used */
-  background-image: url("../assets/images/parallax_justice_league.jpg");
+  background-image: url("../assets/images/parallax_avengers_lineup.jpg");
  
+  /* Set a specific height */
+  height: 400px;
+  opacity: .8;
+ }
+
+ .school { 
+  color: #ddd;
+  background-color: #282E34;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.school h2 {
+  color: #ddd;
+}
+
+.bg4 {
+  /* The image used */
+  background-image: url("../assets/images/parallax_thor_ironman_cap.jpg"); 
+  /* Set a specific height */
+  height: 350px;
+  opacity: .8;
+ }
+
+ .personal { 
+  color: #ddd;
+  background-color: #282E34;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.personal h2 {
+  color: #ddd;
+}
+
+.bg5 {
+  /* The image used */
+  background-image: url("../assets/images/parallax_thor_ironman_cap.jpg"); 
+ /* Need to update background to boardgame table and shelf picture. */
   /* Set a specific height */
   height: 600px;
   opacity: .8;
