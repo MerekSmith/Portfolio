@@ -3,7 +3,7 @@ import "../css/about.css";
 
 const About = props => (
   <div className="about">
-    <div class="parallax bg1">
+    <div className="parallax bg1">
       <div className="parallax-caption">
         <span className="border">Getting to Know Me</span>
       </div>
@@ -28,7 +28,7 @@ const About = props => (
       </p>
     </div>
 
-    <div class="parallax bg2">
+    <div className="parallax bg2">
       <div className="parallax-caption">
         <span className="border">My Work History</span>
       </div>
@@ -53,7 +53,7 @@ const About = props => (
       </p>
     </div>
 
-    <div class="parallax bg3">
+    <div className="parallax bg3">
       <div className="parallax-caption">
         <span className="border">Schooling</span>
       </div>
@@ -78,7 +78,7 @@ const About = props => (
       </p>
     </div>
 
-    <div class="parallax bg4">
+    <div className="parallax bg4">
       <div className="parallax-caption">
         <span className="border">Personal Interests</span>
       </div>
@@ -103,7 +103,7 @@ const About = props => (
       </p>
     </div>
 
-    <div class="parallax bg5">
+    <div className="parallax bg5">
       <div className="parallax-caption">
         <span className="border">Thanks for looking!</span>
       </div>
