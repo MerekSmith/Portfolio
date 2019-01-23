@@ -3,21 +3,11 @@
   background: url("../assets/images/background_rainbow_space.jpg") no-repeat center;
   background-size: cover;
 	height: 120vh;
+	overflow: hidden;
 	/* width: 100vw; */
 	/* position: relative; */
-	overflow: hidden;
   /* Useful for any “absolute” positioned elements inside */
 }
-
-/* .hero-header-container:before {
-  background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.8));
-  content: "";
-  position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-} */
 
 .contact {
   padding-top: 40px;
