@@ -110,6 +110,27 @@ h2 {
   color: #ddd;
 }
 
+.work-container {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.job {
+  margin: 10px 0px;
+}
+
+.company {
+  text-decoration-line: underline;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+
+.job-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
 .bg3 {
   /* The image used */
   background-image: url("../assets/images/parallax_avengers_lineup.jpg");
@@ -119,15 +140,36 @@ h2 {
   opacity: .8;
  }
 
- .school { 
+ .schooling { 
   color: #ddd;
   background-color: #282E34;
-  padding: 50px 80px;
+  padding: 30px 80px;
   text-align: justify;
 }
 
-.school h2 {
+.schooling h2 {
   color: #ddd;
+}
+
+.schools-container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.school {
+  margin: 10px 0px;
+}
+
+.degree {
+  text-decoration-line: underline;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+
+.school-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
 }
 
 .bg4 {
