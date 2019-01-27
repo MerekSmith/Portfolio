@@ -17,8 +17,9 @@ AOS.init();
 class App extends Component {
   render() {
     return (
-        <Router onUpdate={() => window.scrollTo(0, 0)}>
-          <div>
+        <Router>
+        {/* <Router onUpdate={() => window.scrollTo(0, 0)}> */}
+          <div className="container-fluid portfolio">
             <Navbar />
             <Switch>
               <Route exact path="/" component={Home} />

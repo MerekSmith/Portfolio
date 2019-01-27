@@ -25,7 +25,7 @@
   background: url("../assets/images/parallax_spiderverse.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 89.9vh;
+	height: 100vh;
 	opacity: .8;
 	overflow: hidden;
   /* Useful for any “absolute” positioned elements inside */

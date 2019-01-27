@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Carousel from './carousel';
 // import { Parallax } from "react-scroll-parallax";
 // import LazyHero from "react-lazy-hero";
 import github from "../assets/images/github_icon.png";
@@ -64,6 +65,7 @@ export default class Home extends Component {
                   </a>
                 </div>
               </div>
+							<Carousel />
             </div>
           </div>
         </div>
