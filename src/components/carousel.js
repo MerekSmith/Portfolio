@@ -23,7 +23,6 @@ const Carousel = props => (
 		<div id="carousel">
 			<figure><img src={yarn_logo} alt="" className="carousel-img" /></figure>
       <figure><img src={npm_logo} alt="" className="carousel-img" /></figure>
-      <figure><img src={mern_logo} alt="" className="carousel-img" /></figure>
       <figure><img src={git_logo} alt="" className="carousel-img" /></figure>
       <figure><img src={bootstrap_logo} alt="" className="carousel-img" /></figure>
 			<figure><img src={vsc_logo} alt="" className="carousel-img" /></figure>
@@ -33,7 +32,7 @@ const Carousel = props => (
 			<figure><img src={html_logo} alt="" className="carousel-img" /></figure>
 			<figure><img src={css_logo} alt="" className="carousel-img" /></figure>
 			<figure><img src={js_logo} alt="" className="carousel-img" /></figure>
-		<figure><img src={mern_logo} alt="" className="carousel-img" /></figure>
+			<figure><img src={mern_logo} alt="" className="carousel-img" /></figure>
 		</div>
 	</div>
 

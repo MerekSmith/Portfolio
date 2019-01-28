@@ -29,7 +29,7 @@ body{
 } */
 .carousel-container{
 	margin: 0 auto;
-	width: 210px;
+	width: 180px;
 	/* height: 140px; */
 	position: relative;
 	perspective: 1000px;
@@ -67,7 +67,6 @@ body{
 #carousel figure:nth-child(10) { transform: rotateY(270deg) translateZ(288px);}
 #carousel figure:nth-child(11) { transform: rotateY(300deg) translateZ(288px);}
 #carousel figure:nth-child(12) { transform: rotateY(330deg) translateZ(288px);}
-#carousel figure:nth-child(13) { transform: rotateY(360deg) translateZ(288px);}
 
 .carousel-img{
 	/* -webkit-filter: grayscale(1); */
