@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Anaheim);
 
 /* *{
   margin: 0;
@@ -28,9 +27,9 @@ body{
 	text-shadow: 0 1px white, 0 2px black;
 } */
 .carousel-container{
-	margin: 0 auto;
+	margin: 4% auto;
 	width: 180px;
-	/* height: 140px; */
+	height: 140px;
 	position: relative;
 	perspective: 1000px;
 }
@@ -55,25 +54,39 @@ body{
 	overflow: hidden;
 	border: solid 3px black;
 }
-#carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
-#carousel figure:nth-child(2) { transform: rotateY(30deg) translateZ(288px);}
-#carousel figure:nth-child(3) { transform: rotateY(60deg) translateZ(288px);}
-#carousel figure:nth-child(4) { transform: rotateY(90deg) translateZ(288px);}
-#carousel figure:nth-child(5) { transform: rotateY(120deg) translateZ(288px);}
-#carousel figure:nth-child(6) { transform: rotateY(150deg) translateZ(288px);}
-#carousel figure:nth-child(7) { transform: rotateY(180deg) translateZ(288px);}
-#carousel figure:nth-child(8) { transform: rotateY(210deg) translateZ(288px);}
-#carousel figure:nth-child(9) { transform: rotateY(240deg) translateZ(288px);}
-#carousel figure:nth-child(10) { transform: rotateY(270deg) translateZ(288px);}
-#carousel figure:nth-child(11) { transform: rotateY(300deg) translateZ(288px);}
-#carousel figure:nth-child(12) { transform: rotateY(330deg) translateZ(288px);}
+#carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(300px);}
+#carousel figure:nth-child(2) { transform: rotateY(30deg) translateZ(300px);}
+#carousel figure:nth-child(3) { transform: rotateY(60deg) translateZ(300px);}
+#carousel figure:nth-child(4) { transform: rotateY(90deg) translateZ(300px);}
+#carousel figure:nth-child(5) { transform: rotateY(120deg) translateZ(300px);}
+#carousel figure:nth-child(6) { transform: rotateY(150deg) translateZ(300px);}
+#carousel figure:nth-child(7) { transform: rotateY(180deg) translateZ(300px);}
+#carousel figure:nth-child(8) { transform: rotateY(210deg) translateZ(300px);}
+#carousel figure:nth-child(9) { transform: rotateY(240deg) translateZ(300px);}
+#carousel figure:nth-child(10) { transform: rotateY(270deg) translateZ(300px);}
+#carousel figure:nth-child(11) { transform: rotateY(300deg) translateZ(300px);}
+#carousel figure:nth-child(12) { transform: rotateY(330deg) translateZ(300px);}
+
+#carousel-1 {animation-delay: .3s;}
+#carousel-2 {animation-delay: .5s;}
+#carousel-3 {animation-delay: .7s;}
+#carousel-4 {animation-delay: .9s;}
+#carousel-5 {animation-delay: 1.1s;}
+#carousel-6 {animation-delay: 1.3s;}
+#carousel-7 {animation-delay: 1.5s;}
+#carousel-8 {animation-delay: 1.7s;}
+#carousel-9 {animation-delay: 1.9s;}
+#carousel-10 {animation-delay: 2.1s;}
+#carousel-11 {animation-delay: 2.3s;}
+#carousel-12 {animation-delay: 2.5s;}
+
 
 .carousel-img{
 	/* -webkit-filter: grayscale(1); */
 	cursor: pointer;
 	transition: all .5s ease;
-	width: 125px;
-	height: 120px;
+	width: 128px;
+	height: 118px;
 }
 .carousel-img:hover{
 	/* -webkit-filter: grayscale(0); */

@@ -1,5 +1,4 @@
 import React from "react";
-// import $ from "jquery";
 
 import "../css/carousel.css";
 
@@ -19,20 +18,20 @@ import yarn_logo from '../assets/images/tech_logos/yarn.png';
 
 const Carousel = props => (
 
-  <div class="carousel-container">
+	<div class="carousel-container">
 		<div id="carousel">
-			<figure><img src={yarn_logo} alt="" className="carousel-img" /></figure>
-      <figure><img src={npm_logo} alt="" className="carousel-img" /></figure>
-      <figure><img src={git_logo} alt="" className="carousel-img" /></figure>
-      <figure><img src={bootstrap_logo} alt="" className="carousel-img" /></figure>
-			<figure><img src={vsc_logo} alt="" className="carousel-img" /></figure>
-			<figure><img src={sql_logo} alt="" className="carousel-img" /></figure>
-			<figure><img src={sequelize_logo} alt="" className="carousel-img" /></figure>
-			<figure><img src={mongoose_logo} alt="" className="carousel-img" /></figure>
-			<figure><img src={html_logo} alt="" className="carousel-img" /></figure>
-			<figure><img src={css_logo} alt="" className="carousel-img" /></figure>
-			<figure><img src={js_logo} alt="" className="carousel-img" /></figure>
-			<figure><img src={mern_logo} alt="" className="carousel-img" /></figure>
+			<figure><img src={yarn_logo} alt="" className="carousel-img animated zoomIn" id="carousel-12"/></figure>
+      <figure><img src={npm_logo} alt="" className="carousel-img animated zoomIn" id="carousel-11"/></figure>
+      <figure><img src={git_logo} alt="" className="carousel-img animated zoomIn" id="carousel-10"/></figure>
+      <figure><img src={bootstrap_logo} alt="" className="carousel-img animated zoomIn" id="carousel-9"/></figure>
+			<figure><img src={vsc_logo} alt="" className="carousel-img animated zoomIn" id="carousel-8"/></figure>
+			<figure><img src={sql_logo} alt="" className="carousel-img animated zoomIn" id="carousel-7"/></figure>
+			<figure><img src={sequelize_logo} alt="" className="carousel-img animated zoomIn" id="carousel-6"/></figure>
+			<figure><img src={mongoose_logo} alt="" className="carousel-img animated zoomIn" id="carousel-5"/></figure>
+			<figure><img src={html_logo} alt="" className="carousel-img animated zoomIn" id="carousel-4"/></figure>
+			<figure><img src={css_logo} alt="" className="carousel-img animated zoomIn" id="carousel-3"/></figure>
+			<figure><img src={js_logo} alt="" className="carousel-img animated zoomIn" id="carousel-2"/></figure>
+			<figure><img src={mern_logo} alt="" className="carousel-img animated zoomIn" id="carousel-1"/></figure>
 		</div>
 	</div>
 
