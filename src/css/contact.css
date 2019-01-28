@@ -60,4 +60,9 @@
 
 .btn {
   width: 200px;
+  opacity: .8;
+}
+
+.required {
+  color: white;
 }

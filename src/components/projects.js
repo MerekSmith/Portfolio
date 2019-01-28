@@ -11,7 +11,7 @@ const Projects = props => (
   <div className="hero-project-container">
     <div className="container-fluid projects">
       <header>
-        <h1>Recent Projects</h1>
+        <h1 className="project-heading">Recent Projects</h1>
       </header>
       <div className="wrapper">
         <Project />

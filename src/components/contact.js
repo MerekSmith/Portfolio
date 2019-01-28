@@ -156,7 +156,7 @@ export default class Contact extends Component {
               {/* Submit button */}
               <div className="row required-text animated fadeInUp">
                 <div className="col-md-12 required-text">
-                  <p className="text-muted required-text">
+                  <p className="required-text required">
                     <strong>*</strong> These fields are required.
                   </p>
                 </div>
@@ -165,7 +165,7 @@ export default class Contact extends Component {
                 <div className="col-md-12 send-button animated fadeInUp">
                   <input
                     type="submit"
-                    className="btn btn-success btn-send"
+                    className="btn btn-secondary btn-send"
                     value="Send message"
                   />
                 </div>
