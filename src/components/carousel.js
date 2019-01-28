@@ -18,12 +18,12 @@ import yarn_logo from '../assets/images/tech_logos/yarn.png';
 
 const Carousel = props => (
 
-	<div class="carousel-container">
+	<div className="carousel-container">
 		<div id="carousel">
 			<figure><img src={yarn_logo} alt="" className="carousel-img animated zoomIn" id="carousel-12"/></figure>
-      <figure><img src={npm_logo} alt="" className="carousel-img animated zoomIn" id="carousel-11"/></figure>
-      <figure><img src={git_logo} alt="" className="carousel-img animated zoomIn" id="carousel-10"/></figure>
-      <figure><img src={bootstrap_logo} alt="" className="carousel-img animated zoomIn" id="carousel-9"/></figure>
+      		<figure><img src={npm_logo} alt="" className="carousel-img animated zoomIn" id="carousel-11"/></figure>
+     		<figure><img src={git_logo} alt="" className="carousel-img animated zoomIn" id="carousel-10"/></figure>
+      		<figure><img src={bootstrap_logo} alt="" className="carousel-img animated zoomIn" id="carousel-9"/></figure>
 			<figure><img src={vsc_logo} alt="" className="carousel-img animated zoomIn" id="carousel-8"/></figure>
 			<figure><img src={sql_logo} alt="" className="carousel-img animated zoomIn" id="carousel-7"/></figure>
 			<figure><img src={sequelize_logo} alt="" className="carousel-img animated zoomIn" id="carousel-6"/></figure>
