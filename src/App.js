@@ -14,22 +14,40 @@ import AOS from 'aos';
 
 AOS.init();
 
+
 class App extends Component {
+
+  loader() {
+    const ele = document.getElementById('ipl-progress-indicator')
+    if (ele) {
+      // fade out
+      ele.classList.add('available')
+      setTimeout(() => {
+        // remove from DOM
+        ele.outerHTML = ''
+      }, 2000)
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('load', this.loader());
+  }
+
   render() {
     return (
-        <Router>
+      <Router>
         {/* <Router onUpdate={() => window.scrollTo(0, 0)}> */}
-          <div className="container-fluid portfolio">
-            <Navbar />
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/about" component={About} />
-              <Route exact path="/projects" component={Projects} />
-              <Route exact path="/contact" component={Contact}/>
-              {/* <Route component={NoMatch} /> */}
-            </Switch>
-          </div>
-        </Router>
+        <div className="container-fluid portfolio">
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/contact" component={Contact} />
+            {/* <Route component={NoMatch} /> */}
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }
