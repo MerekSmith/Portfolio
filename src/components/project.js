@@ -14,7 +14,7 @@ const Project = props => (
         <li className="scene" data-aos="zoom-in-up" data-aos-duration="1500" key={index}>
           <a href={project.link} target="_blank" rel="noopener noreferrer">
             <div className="movie">
-              <div className="poster">
+              <div className="poster" style={{backgroundImage: `url(${project.image})`}}>
               {/* <header>
                 <h1>{project.title}</h1>
               </header>

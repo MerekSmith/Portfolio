@@ -187,7 +187,10 @@ Generate "lighting" using box shadows
 Posters and still images
 **************************************/
 
-.scene:nth-child(1) .movie .poster {
+/* The below links have been replaced by links in the JSON file which links to the public assets folder. */
+
+
+/* .scene:nth-child(1) .movie .poster {
 	background-image: url(../../assets/images/projects/trivia_game.jpg);
 }
 
@@ -233,7 +236,7 @@ Posters and still images
 
 .scene:nth-child(12) .movie .poster {
   background-image: url(../../assets/images/projects/digitalpal.jpg);
-}
+} */
 
 
 
