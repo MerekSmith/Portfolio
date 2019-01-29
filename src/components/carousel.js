@@ -2,7 +2,7 @@ import React from "react";
 
 import "../css/carousel.css";
 
-import mern_logo from '../assets/images/tech_logos/MERN_stack.png';
+import mern_logo from '../assets/images/tech_logos/MERN_stack.jpg';
 import js_logo from '../assets/images/tech_logos/javascript.png';
 import css_logo from '../assets/images/tech_logos/css.png';
 import html_logo from '../assets/images/tech_logos/html.png';
@@ -18,7 +18,7 @@ import yarn_logo from '../assets/images/tech_logos/yarn.png';
 
 const Carousel = props => (
 
-	<div className="carousel-container">
+	<div className="carousel-container animated fadeInUpBig">
 		<div id="carousel">
 			<figure><img src={yarn_logo} alt="" className="carousel-img animated zoomIn" id="carousel-12"/></figure>
       		<figure><img src={npm_logo} alt="" className="carousel-img animated zoomIn" id="carousel-11"/></figure>

@@ -16,7 +16,7 @@ export default class Home extends Component {
             <div className="homeContents">
               <h1 className="home-heading animated bounceInDown">Full Stack Web Development by Merek Smith</h1>
               <div className="iconGroup">
-                <div className="icon animated bounceInLeft">
+                <div className="icon animated bounceInLeft delay-1s">
                   <a
                     href="https://www.github.com/MerekSmith"
                     target="_blank"
@@ -32,7 +32,7 @@ export default class Home extends Component {
                     />
                   </a>
                 </div>
-                <div className="icon animated bounceInDown">
+                <div className="icon animated bounceInDown delay-1s">
                   <a
                     href="https://www.linkedin.com/in/merek-smith/"
                     target="_blank"
@@ -48,7 +48,7 @@ export default class Home extends Component {
                     />
                   </a>
                 </div>
-                <div className="icon animated bounceInRight">
+                <div className="icon animated bounceInRight delay-1s">
                   <a
                     href="https://stackoverflow.com/users/9142901/merek-smith"
                     target="_blank"
