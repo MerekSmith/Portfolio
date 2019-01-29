@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,900);
+/* @import url(https://fonts.googleapis.com/css?family=Lato:300,400,900);
 @font-face {
 	font-family: 'codropsicons';
 	src:url('./fonts/codropsicons/codropsicons.eot');
@@ -46,7 +46,7 @@
 	padding: 0 0 0.6em 0.1em;
 }
 
-/* To Navigation Style */
+
 .codrops-top {
 	background: #fff;
 	background: rgba(255, 255, 255, 0.6);
@@ -98,7 +98,7 @@
 	content: "\e004";
 }
 
-/* Demo Buttons Style */
+
 .codrops-demos {
 	padding-top: 1em;
 	font-size: 0.9em;
@@ -128,4 +128,4 @@
 		display: none;
 	}
 
-}
+} */

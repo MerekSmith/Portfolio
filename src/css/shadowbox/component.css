@@ -145,7 +145,7 @@ Movie information
 }
 
 .info p {
-  padding: 1.2em 1.4em;
+  padding: .6em .8em;
   margin: 2px 0 0;
   font-weight: 700;
   color: #666;
@@ -235,17 +235,7 @@ Posters and still images
   background-image: url(../../assets/images/projects/digitalpal.jpg);
 }
 
-/* .scene:nth-child(1) .info header {
-	background-image: url(../../assets/images/projects/trivia_game.JPG);
-} */
-/* 
-.scene:nth-child(2) .info header {
-	background-image: url(../../assets/images/projects/simpsons_memory_game.JPG);
-}
 
-.scene:nth-child(3) .info header {
-	background-image: url(../../assets/images/projects/still03.jpg);
-} */
 
 /*************************************
 Fallback
