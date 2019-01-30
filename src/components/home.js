@@ -15,7 +15,7 @@ export default class Home extends Component {
           <div className="home">
             <div className="homeContents">
               <h1 className="home-heading animated bounceInDown">Full Stack Web Development by Merek Smith</h1>
-              <div className="iconGroup">
+              <div className="icon-group">
                 <div className="icon animated bounceInLeft delay-1s">
                   <a
                     href="https://www.github.com/MerekSmith"

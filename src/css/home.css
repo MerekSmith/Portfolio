@@ -14,7 +14,7 @@
 .home {
   padding-top: 15px;
   position: absolute;
-  bottom: 8%;
+  bottom: 10%;
   width: 100%;
   text-align: center;
 }
@@ -36,6 +36,10 @@
   font-size: 25px;
   letter-spacing: 5px;
   opacity: .85;
+}
+
+.icon-group {
+  margin-top: 5px;
 }
 
 .icons {
