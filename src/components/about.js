@@ -1,10 +1,11 @@
 import React from "react";
 import "../css/about.css";
+import Schools from './schools';
 
 import portrait from "../assets/images/profilepic.jpg";
-import uofuLogo from "../assets/images/uofu_logo.png";
-import slccLogo from "../assets/images/slcc_logo.png";
-import webDevLogo from "../assets/images/uofu webdev certificate-small.png";
+// import uofuLogo from "../assets/images/uofu_logo.png";
+// import slccLogo from "../assets/images/slcc_logo.png";
+// import webDevLogo from "../assets/images/uofu webdev certificate-small.png";
 import ostkLogo from "../assets/images/ostk_logo.png";
 import blyLogo from "../assets/images/bly_logo.png";
 import henkelLogo from "../assets/images/henkel_logo.png";
@@ -58,7 +59,7 @@ const About = props => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={ostkLogo} alt="Web Dev Logo" className="job-logo" />
+              <img src={ostkLogo} alt="Overstock Logo" className="job-logo" />
             </a>
           </span>
           <span className="company">Overstock.com</span>
@@ -70,11 +71,11 @@ const About = props => (
         <div className="job">
           <span>
             <a
-              href="http://www.utah.edu/"
+              href="https://www.boartlongyear.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={blyLogo} alt="UofU Logo" className="job-logo" />
+              <img src={blyLogo} alt="Boart Longyear Logo" className="job-logo" />
             </a>
           </span>
           <span className="company"> Boart Longyear </span>
@@ -86,7 +87,7 @@ const About = props => (
         <div className="job">
           <span>
             <a
-              href="http://www.slcc.edu/"
+              href="https://www.henkel.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -129,59 +130,9 @@ const About = props => (
       {/* <h2>Schooling</h2> */}
 
       <div className="schools-container">
-        {/* Web Dev Logo */}
-        <div className="school">
-          <span>
-            <a
-              href="https://www.youracclaim.com/badges/f2b648dd-7ec6-4821-a6f6-073a4b4cb359/public_url"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={webDevLogo}
-                alt="Web Dev Logo"
-                className="school-logo"
-              />
-            </a>
-          </span>
-          <span className="degree">
-            Certificate of Completion – The Coding Bootcamp
-          </span>
-          <span> - University of Utah, Sandy, Utah</span>
-          <span> - Graduated 2018 </span>
-        </div>
-
-        {/* UofU Logo */}
-        <div className="school">
-          <span>
-            <a
-              href="http://www.utah.edu/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={uofuLogo} alt="UofU Logo" className="school-logo" />
-            </a>
-          </span>
-          <span className="degree">Bachelor of Science – Finance</span>
-          <span> - University of Utah, Salt Lake City, Utah </span>
-          <span> - Graduated 2012 </span>
-        </div>
-
-        {/* SLCCLogo */}
-        <div className="school">
-          <span>
-            <a
-              href="http://www.slcc.edu/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={slccLogo} alt="SLCC Logo" className="school-logo" />
-            </a>
-          </span>
-          <span className="degree">Associates of Science – Business</span>
-          <span> - Salt Lake Community College, West Jordan, Utah</span>
-          <span> - Graduated 2011 </span>
-        </div>
+     
+     <Schools />
+      
       </div>
     </div>
 
