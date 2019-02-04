@@ -15,10 +15,10 @@ const About = props => (
     <div className="about-me">
       <h2>How Did I Get in This Nutshell?</h2>
       <div className="row">
-        <div className="col-md-2 portrait-container about-me-col">
+        <div className="col-md-3 portrait-container about-me-col">
           <img className="portrait" src={portrait} alt="portrait" />
         </div>
-        <div className="col-md-10 about-me-col">
+        <div className="col-md-9 about-me-col">
           <p>
             I am a full stack web developer with a background in Supply Chain
             and Finance. I recently graduated the Coding Bootcamp from the
@@ -46,56 +46,7 @@ const About = props => (
 
       <div className="work-container">
         {/* Web Dev Logo */}
-        <div className="jobs">
-          <span>
-            <a
-              href="https://www.overstock.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={ostkLogo} alt="Overstock Logo" className="job-logo" />
-            </a>
-          </span>
-          <span className="company">Overstock.com</span>
-          <span> - Supply Chain Analyst</span>
-          <span> - Mar 2018 - Present </span>
-        </div>
-
-        {/* UofU Logo */}
-        <div className="job">
-          <span>
-            <a
-              href="https://www.boartlongyear.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={blyLogo}
-                alt="Boart Longyear Logo"
-                className="job-logo"
-              />
-            </a>
-          </span>
-          <span className="company"> Boart Longyear </span>
-          <span> - Supply Chain Analyst </span>
-          <span> - Mar 2015 - Mar 2018 </span>
-        </div>
-
-        {/* SLCCLogo */}
-        <div className="job">
-          <span>
-            <a
-              href="https://www.henkel.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={henkelLogo} alt="Henkel Logo" className="job-logo" />
-            </a>
-          </span>
-          <span className="company">Henkel (Sun Products Corp)</span>
-          <span> - Customer Supply Chain Analyst</span>
-          <span> - Aug 2012 – Mar 2015 </span>
-        </div>
+        <History historyType={"jobs"} />
 
         {/* Example of pdf download link where pdf is local */}
         {/* <a href="./directory/yourfile.pdf" download="newfilename"> */}
@@ -124,6 +75,7 @@ const About = props => (
       </div>
     </div>
 
+    {/* schooling */}
     <div className="schooling">
       {/* <h2>Schooling</h2> */}
 
@@ -131,6 +83,7 @@ const About = props => (
         <History historyType={"schools"} />
       </div>
     </div>
+    {/* school end */}
 
     <div className="parallax bg4">
       <div className="parallax-caption">

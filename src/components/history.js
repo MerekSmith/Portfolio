@@ -65,6 +65,7 @@ const jobs = [
 
 const History = props =>
   props.historyType === "schools" ? (
+    // schools render
     <div className={props.historyType}>
       {schools.map((school, index) => {
         return (
@@ -89,24 +90,25 @@ const History = props =>
       })}
     </div>
   ) : (
+    // jobs render
     <div className={props.historyType}>
-      {schools.map((school, index) => {
+      {jobs.map((job, index) => {
         return (
-          <div className="row school" key={index}>
+          <div className="row job" key={index}>
             <div className="col-md-3" />
             <div className="col-md-2 logo">
-              <a href={school.link} target="_blank" rel="noopener noreferrer">
+              <a href={job.link} target="_blank" rel="noopener noreferrer">
                 <img
-                  src={school.logo}
-                  alt={school.alt}
-                  className="school-logo"
+                  src={job.logo}
+                  alt={job.alt}
+                  className="job-logo"
                 />
               </a>
             </div>
             <div className="col-md-7">
-              <div className="degree">{school.degree}</div>
-              <div> - {school.school} </div>
-              <div> - {school.graduated} </div>
+              <div className="company">{job.company}</div>
+              <div> {` - ${job.title}`} </div>
+              <div> {` - ${job.time}`} </div>
             </div>
           </div>
         );
