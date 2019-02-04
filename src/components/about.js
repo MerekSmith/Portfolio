@@ -1,14 +1,8 @@
 import React from "react";
 import "../css/about.css";
-import Schools from './schools';
+import History from "./history";
 
 import portrait from "../assets/images/profilepic.jpg";
-// import uofuLogo from "../assets/images/uofu_logo.png";
-// import slccLogo from "../assets/images/slcc_logo.png";
-// import webDevLogo from "../assets/images/uofu webdev certificate-small.png";
-import ostkLogo from "../assets/images/ostk_logo.png";
-import blyLogo from "../assets/images/bly_logo.png";
-import henkelLogo from "../assets/images/henkel_logo.png";
 
 const About = props => (
   <div className="about">
@@ -52,7 +46,7 @@ const About = props => (
 
       <div className="work-container">
         {/* Web Dev Logo */}
-        <div className="job">
+        <div className="jobs">
           <span>
             <a
               href="https://www.overstock.com"
@@ -75,7 +69,11 @@ const About = props => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={blyLogo} alt="Boart Longyear Logo" className="job-logo" />
+              <img
+                src={blyLogo}
+                alt="Boart Longyear Logo"
+                className="job-logo"
+              />
             </a>
           </span>
           <span className="company"> Boart Longyear </span>
@@ -91,7 +89,7 @@ const About = props => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={henkelLogo} alt="SLCC Logo" className="job-logo" />
+              <img src={henkelLogo} alt="Henkel Logo" className="job-logo" />
             </a>
           </span>
           <span className="company">Henkel (Sun Products Corp)</span>
@@ -130,9 +128,7 @@ const About = props => (
       {/* <h2>Schooling</h2> */}
 
       <div className="schools-container">
-     
-     <Schools />
-      
+        <History historyType={"schools"} />
       </div>
     </div>
 
