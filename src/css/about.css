@@ -109,10 +109,19 @@ h2 {
 }
 
 .job {
-  margin: 10px 0px;
+  margin: 15px 0px;
 }
 
-.company {
+.job-col, .school-col {
+  padding: 5px 0px;
+}
+
+.divider {
+  color: red;
+  font-weight: bold;
+}
+
+.company, .degree {
   text-decoration-line: underline;
   font-weight: bold;
   /* margin: 50px 0px; */
@@ -121,7 +130,7 @@ h2 {
 .job-logo {
   width: 70px;
   height: 60px;
-  margin-right: 15px;
+  /* margin-right: 15px; */
 }
 
 .resume-container {
@@ -161,17 +170,13 @@ h2 {
 
 .logo {
   text-align: center;
+  /* margin-bottom: 10px; */
 }
 
 .school {
   margin: 10px 0px;
 }
 
-.degree {
-  text-decoration-line: underline;
-  font-weight: bold;
-  /* margin: 50px 0px; */
-}
 
 .description {
   display: inline-block;
