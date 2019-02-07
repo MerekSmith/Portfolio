@@ -40,10 +40,10 @@ class App extends Component {
         <div className="container-fluid portfolio">
           <Navbar />
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/" component={Home} rel="preload" />
+            <Route exact path="/about" component={About} rel="preload" />
+            <Route exact path="/projects" component={Projects} rel="preload" />
+            <Route exact path="/contact" component={Contact} rel="preload" />
             {/* <Route component={NoMatch} /> */}
           </Switch>
         </div>
