@@ -70,7 +70,7 @@ const History = props =>
       {schools.map((school, index) => {
         return (
           <div className="row school" key={index}>
-            <div className="col-md-2" />
+            <div className="col-md-3" />
             <div className="col-md-2 logo">
               <a href={school.link} target="_blank" rel="noopener noreferrer">
                 <img
@@ -96,7 +96,7 @@ const History = props =>
       {jobs.map((job, index) => {
         return (
           <div className="row job" key={index}>
-            <div className="col-md-2" />
+            <div className="col-md-3" />
             <div className="col-md-2 logo">
               <a href={job.link} target="_blank" rel="noopener noreferrer">
                 <img
