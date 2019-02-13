@@ -11,13 +11,15 @@ function browserCheck() {
 	console.log('navigator',navigator.userAgent);
 	if((navigator.userAgent.indexOf("MSIE") !== -1 ) || (!!document.documentMode === true )) //IF IE > 10
 	{
-		console.log('Browser: IE'); 
+		// console.log('Browser: IE'); 
 		navClass = 'static-top'
+		// alert('This website performs best in Chrome'); 
 	}  
 	else if((navigator.userAgent.indexOf("Edge") !== -1 ) || (!!document.documentMode === true )) //IF IE > 10
 	{
-		console.log('Browser: Edge'); 
+    // console.log('Browser: Edge'); 
 		navClass = 'static-top'
+    // alert('This website performs best in Chrome'); 
 	}
 // 	else if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) !== -1 ) 
 //  {
@@ -37,7 +39,7 @@ function browserCheck() {
 //  }
  else 
  {
-		console.log('Browser: Not IE or Edge');
+		// console.log('Browser: Not IE or Edge');
 		
  }
  }
@@ -71,19 +73,19 @@ const Navbar = props => (
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <div className="navbar-nav">
-            <Link className="nav-item nav-link active" to="/">
-              Home <span className="sr-only">(current)</span>
+            <Link className="nav-item nav-link btn btn-sm btn-outline-secondary nav-btn" to="/">
+              Home
             </Link>
-            <Link className="nav-item nav-link active" to="/about">
+            <Link className="nav-item nav-link btn btn-sm btn-outline-secondary nav-btn" to="/about">
               About Me
             </Link>
-            <Link className="nav-item nav-link active" to="/projects">
+            <Link className="nav-item nav-link btn btn-sm btn-outline-secondary nav-btn" to="/projects">
               Projects
             </Link>
             <Link
-              className="nav-item nav-link active"
+              className="nav-item nav-link btn btn-sm btn-outline-secondary nav-btn"
               to="/contact"
-              aria-disabled="true"
+              // aria-disabled="true"
             >
               Contact Me
             </Link>
