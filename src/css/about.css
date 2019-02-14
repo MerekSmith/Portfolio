@@ -60,6 +60,17 @@ h2 {
   margin-bottom: 15px;
 }
 
+.dev-cert-container {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.dev-cert {
+	width: 220px;
+	height: 220px;
+	/* text-align: center; */
+}
+
 .portrait-container {
 	min-width: 180px;
 	text-align: center;

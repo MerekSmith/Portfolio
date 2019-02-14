@@ -3,6 +3,7 @@ import "../css/about.css";
 import History from "./history";
 
 import portrait from "../assets/images/profilepic.jpg";
+import devCert from "../assets/images/uofu webdev certificate-large.png";
 
 const About = props => (
   <div className="about">
@@ -15,10 +16,10 @@ const About = props => (
     <div className="about-me">
       <h2>How Did I Get in This Nutshell?</h2>
       <div className="row">
-        <div className="col-md-3 portrait-container about-me-col">
+        <div className="col-md-2 portrait-container about-me-col">
           <img className="portrait" src={portrait} alt="portrait" />
         </div>
-        <div className="col-md-9 about-me-col">
+        <div className="col-md-8 about-me-col">
           <p>
             I am a full stack web developer with a background in Supply Chain
             and Finance. I recently graduated the Coding Bootcamp from the
@@ -30,7 +31,17 @@ const About = props => (
             career change into Web Development. I am a quick learner with a
             strong work ethic and constantly strive to learn more and progress.
           </p>
+						I would like to invite you to to click on the certificate logo here to see all of the technologies learned during The Coding Bootcamp I attended.
           <p />
+        </div>
+        <div className="col-md-2 dev-cert-container">
+          <a href="https://www.youracclaim.com/badges/f2b648dd-7ec6-4821-a6f6-073a4b4cb359/public_url" target="_blank" rel="noopener noreferrer">
+            <img
+              className="dev-cert"
+              src={devCert}
+              alt="Coding Bootcamp Certificate"
+            />
+          </a>
         </div>
       </div>
     </div>

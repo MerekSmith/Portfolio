@@ -28,7 +28,7 @@
   },
   {
     "title": "Price It (Project 1)",
-    "description": "This was my first team project and was created as a tool to find the lowest price on an item. This was connected to three APIs including Amazon, Walmart, and eBay. The Amazon API was the most challenging to set up. ",
+    "description": "This was my first team project and was created as a tool to find the lowest price on an item. This was connected to three APIs including Amazon, Walmart, and eBay. The Amazon API was the most challenging to set up, which I completed.",
     "technologies": "HTML, CSS, and API connections.",
     "link": "https://mereksmith.github.io/PriceIt/",
     "github": "https://github.com/MerekSmith/PriceIt",
@@ -46,7 +46,7 @@
   },
   {
     "title": "Rock Paper Scissors Multiplayer",
-    "description": "This is a multiplayer game of Rock, Paper, Scissors using Firebase as the database and server for multiple user connections. 2 players can join into the game and play along with chat together using the chat box.",
+    "description": "This is a multiplayer game of Rock, Paper, Scissors using Firebase as the database and server for multiple user connections. 2 players can join into the game and play along while chatting together using the chat box.",
     "technologies": "HTML, CSS, and Firebase.",
     "link": "https://mereksmith.github.io/RPS-Multiplayer/",
     "github": "https://github.com/MerekSmith/RPS-Multiplayer",
@@ -55,7 +55,7 @@
   },
   {
     "title": "New York Times Article API",
-    "description": "This site uses the New Yort Times API to pull articles based on provided search criteria. You can then save the article to the database and add a note. Each time an article is saved, socket.io is used to alert other users that a new article is in the saved articles section. There is also a bonus countdown timer that is just a demonstration of socket.io. The timer will be the same for every user on the site and continues to reset after 30 seconds.",
+    "description": "This site uses the New York Times API to pull articles based on provided search criteria. You can then save the article to the database and add a note. Each time an article is saved, socket.io is used to alert other users that a new article is in the saved articles section. There is also a bonus countdown timer that is just a demonstration of socket.io. The timer will be the same for every user on the site and continues to reset after 30 seconds.",
     "technologies": "Reach, MongoDB, Mongoose, Node, Express, and socket.io.",
     "link": "https://gentle-garden-91780.herokuapp.com/",
     "github": "https://github.com/MerekSmith/nytReactSocket",
