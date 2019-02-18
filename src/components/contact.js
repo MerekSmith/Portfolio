@@ -35,10 +35,6 @@ export default class Contact extends Component {
       receiverEmail,
       this.state.message
     );
-
-    this.setState({
-      mailSent: true
-    });
   };
 
   sendMessage(templateId, senderEmail, name, phone, receiverEmail, message) {
@@ -51,21 +47,33 @@ export default class Contact extends Component {
         message
       })
       .then(res => {
+        // console.log('message result', res)
         this.setState({
-          formEmailSent: true,
           name: "",
           phone: "",
           senderEmail: "",
-          message: ""
-        });
-      })
-      // Handle errors here however you like
-      .catch(
-				// err => console.error("Failed to send message. Error: ", err)
-				this.setState({
+          message: "",
           error: true
-        })
-			);
+        });
+        if (res.status === 200) {
+          this.setState({
+            mailSent: true,
+            error: null
+          });
+        } else {
+          this.setState({
+            error: true
+          });
+        }
+      });
+
+    // Handle errors here however you like
+    // .catch(
+    // 	err => console.error("Failed to send message. Error: ", err);
+    // 	this.setState({
+    //     error: true
+    //   })
+    // );
   }
 
   render() {
@@ -165,15 +173,15 @@ export default class Contact extends Component {
                 <div className="col-md-12 send-button animated fadeInUp">
                   <input
                     type="submit"
-                    className="btn btn-secondary btn-send"
+                    className="btn btn-lg btn-secondary btn-send"
                     value="Send message"
                   />
                 </div>
               </div>
             </div>
-            <div>
+            <div className="submit-response">
               {this.state.mailSent && (
-                <div className="sucsess animated tada">
+                <div className="success animated tada">
                   Thank you for contacting me.
                 </div>
               )}
@@ -184,6 +192,20 @@ export default class Contact extends Component {
               )}
             </div>
           </form>
+          <div className="row contact-info-row animated fadeInUpBig">
+            <div className="col-md-4 contact-info-col">
+              <i className="fas fa-envelope-square contact-icon" />
+              <p className="contact-info">mereksmith@hotmail.com</p>
+            </div>
+            <div className="col-md-4 contact-info-col">
+              <i className="fas fa-phone-square contact-icon" />
+              <p className="contact-info">801-856-3735</p>
+            </div>
+            <div className="col-md-4 contact-info-col">
+              <i className="fas fa-map-marker-alt contact-icon" />
+              <p className="contact-info">Salt Lake City, Utah, USA</p>
+            </div>
+          </div>
         </div>
       </div>
     );
