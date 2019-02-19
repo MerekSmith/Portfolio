@@ -99,7 +99,7 @@
     "image": "./assets/projects/constuctor_hangman.jpg"
 	},
 	{
-    "title": "DigitalPal",
+    "title": "DigitalPal (Node)",
     "description": "This is a tamagotchi type app where you can make choices of how to take care of a digital pet. It is only played through Node and a command prompt window.",
     "technologies": "Javascript, Inquirer, Node.js.",
     "link": "https://github.com/MerekSmith/DigitalPal",

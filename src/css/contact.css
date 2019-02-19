@@ -15,20 +15,23 @@
 }
 
 .header {
-  max-width: 400px;
+  max-width: 300px;
   margin: auto;
   /* margin-top: 40px; */
   margin-bottom: 40px;
   background-color: rgba(0, 0, 0, 0.7);
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
-  color: grey;
+  color: white;
 }
 
 .contact-header {
+  height: 50px;
   width: 100%;
   text-align: center;
   margin: 0px;
+  padding: 5px;
+  font-size: 30px;
 }
 
 .form-control {
