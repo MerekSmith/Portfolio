@@ -9,6 +9,15 @@
     "image": "./assets/projects/trivia_game.jpg"
   },
   {
+    "title": "Hangman Game",
+    "description": "This is a simple Hangman game made in React. It was made for my daughter so the current word list is designed for a 5-6 year old. It has some additional checks to make sure there are no duplicate words or the user hits the same letter or non-letter key.",
+    "technologies": "React.",
+    "link": "https://hangman-game-react.herokuapp.com/",
+    "github": "https://github.com/MerekSmith/Hangman-React",
+    "type": "Personal",
+    "image": "./assets/projects/hangman_game.png"
+  },
+  {
     "title": "The Simpsons Memory Game",
     "description": "This is a fun, memory game where you try to select a different character each time without selecting a duplicate. This was created using a JSON file that contains 54 Simpsons characters that are randomly selected each time. The game keeps track of the high score during each session.",
     "technologies": "React.",
