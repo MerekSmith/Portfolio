@@ -2,7 +2,7 @@
 .parallax { 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  /* background-position: center; */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -236,13 +236,13 @@ h2 {
 }
 
  /* responsive css, fixes parallax issues on phone.*/
- @media screen and (max-width: 640) {
+ @media only screen and (max-width: 640px) {
 	.parallax { 
 		background-position-y: 0px;
 	}
 
 	.about-me {
-		padding: 30px 40px;
+		padding: 30px 40px !important;
 	}
 
 }
