@@ -25,7 +25,16 @@
     "github": "https://github.com/MerekSmith/Simpsons-Memory-Game",
     "type": "School",
     "image": "./assets/projects/simpsons_memory_game.png"
-  },
+	},
+	{
+    "title": "New York Times Article API",
+    "description": "This site uses the New York Times API to pull articles based on provided search criteria. You can then save the article to the database and add a note. Each time an article is saved, socket.io is used to alert other users that a new article is in the saved articles section. There is also a bonus countdown timer that is just a demonstration of socket.io. The timer will be the same for every user on the site and continues to reset after 30 seconds.",
+    "technologies": "React, MongoDB, Mongoose, Node, Express, and socket.io.",
+    "link": "https://gentle-garden-91780.herokuapp.com/",
+    "github": "https://github.com/MerekSmith/nytReactSocket",
+    "type": "School",
+    "image": "./assets/projects/nyt_articles.png"
+	},
   {
     "title": "Avengers Fighting Game",
     "description": "This is fighting game with an Avengers theme. It has over 15 characters available but each game is randomized by which characters are available and their stats. You must pick wisely in order to defeat them all before you run out of hp. This uses jQuery to dynammically add or update elements.",
@@ -62,15 +71,6 @@
     "type": "School",
     "image": "./assets/projects/rps_game.png"
   },
-  {
-    "title": "New York Times Article API",
-    "description": "This site uses the New York Times API to pull articles based on provided search criteria. You can then save the article to the database and add a note. Each time an article is saved, socket.io is used to alert other users that a new article is in the saved articles section. There is also a bonus countdown timer that is just a demonstration of socket.io. The timer will be the same for every user on the site and continues to reset after 30 seconds.",
-    "technologies": "Reach, MongoDB, Mongoose, Node, Express, and socket.io.",
-    "link": "https://gentle-garden-91780.herokuapp.com/",
-    "github": "https://github.com/MerekSmith/nytReactSocket",
-    "type": "School",
-    "image": "./assets/projects/nyt_articles.png"
-	},
 	{
     "title": "The Colony (Project 3)",
     "description": "This was my third team project. It is meant to be a game similiar to Jackbox and One Night Ultimate Wearwolf. The site is meant to act as the motirator for the game and would allow people to connect using their phones. Timers would be used to move the game along and allow players to vote and do some actions on their phones. The website was not get completed and does not really function. It will allow players to connect via socket.io but the game does not play.",
