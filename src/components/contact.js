@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../css/contact.css";
 
-export default class Contact extends Component {
+ export default class Contact extends Component {
   constructor(props) {
     super(props);
     this.state = {

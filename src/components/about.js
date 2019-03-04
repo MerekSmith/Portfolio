@@ -5,9 +5,36 @@ import History from "./history";
 import portrait from "../assets/images/profilepic.jpg";
 import devCert from "../assets/images/uofu webdev certificate-large.png";
 
+let ieParallax = false;
+
+// This function checks for the browser being used and updates the class to static-top, since sticky is not supported on IE or Edge.
+function browserCheck() {
+  // console.log("navigator", navigator.userAgent);
+  if (
+    navigator.userAgent.indexOf("MSIE") !== -1 ||
+    !!document.documentMode === true
+  ) {
+    //IF IE > 10
+    // console.log('Browser: IE');
+    ieParallax = true;
+    // alert('This website performs best in Chrome');
+  } else if (
+    navigator.userAgent.indexOf("Edge") !== -1 ||
+    !!document.documentMode === true
+  ) {
+    //IF IE > 10
+    // console.log('Browser: Edge');
+    ieParallax = true;
+    // alert('This website performs best in Chrome');
+  }
+}
+
+browserCheck();
+
+
 const About = props => (
   <div className="about">
-    <div className="parallax bg1">
+    <div className={`parallax bg1 ${ieParallax ? 'ie-parallax' : null}`}>
       <div className="parallax-caption">
         <span className="border">Me in a Nutshell</span>
       </div>
@@ -46,7 +73,7 @@ const About = props => (
       </div>
     </div>
 
-    <div className="parallax bg2">
+    <div className={`parallax bg2 ${ieParallax ? 'ie-parallax' : null}`}>
       <div className="parallax-caption">
         <span className="border">My Work History</span>
       </div>
@@ -80,7 +107,7 @@ const About = props => (
       {/* end of work */}
     </div>
 
-    <div className="parallax bg3">
+    <div className={`parallax bg3 ${ieParallax ? 'ie-parallax' : null}`}>
       <div className="parallax-caption">
         <span className="border">Schooling</span>
       </div>
@@ -96,7 +123,7 @@ const About = props => (
     </div>
     {/* school end */}
 
-    <div className="parallax bg4">
+    <div className={`parallax bg4 ${ieParallax ? 'ie-parallax' : null}`}>
       <div className="parallax-caption">
         <span className="border">Personal Interests</span>
       </div>
@@ -116,7 +143,7 @@ const About = props => (
       </p>
     </div>
 
-    <div className="parallax bg5">
+    <div className={`parallax bg5 ${ieParallax ? 'ie-parallax' : null}`}>
       <div className="parallax-caption">
         <span className="border">Thanks for looking!</span>
       </div>

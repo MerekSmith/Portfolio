@@ -27,6 +27,15 @@
     "image": "./assets/projects/simpsons_memory_game.png"
   },
   {
+    "title": "Avengers Fighting Game",
+    "description": "This is fighting game with an Avengers theme. It has over 15 characters available but each game is randomized by which characters are available and their stats. You must pick wisely in order to defeat them all before you run out of hp. This uses jQuery to dynammically add or update elements.",
+    "technologies": "jQuery, Bootstrap.",
+    "link": "https://mereksmith.github.io/Avengers-Game/",
+    "github": "https://github.com/MerekSmith/Avengers-Game",
+    "type": "School",
+    "image": "./assets/projects/avengers_game.jpg"
+  },
+  {
     "title": "Barcode (Project 2)",
     "description": "This was my 2nd team project that was designed to be a web based inventory management system. It can allow an employee to enter in new items easily and allows consumers to instantly see an item that is now available for sale.",
     "technologies": "Handlebars, SQL Server, Node, and Express.",
@@ -45,15 +54,6 @@
     "image": "./assets/projects/PriceItLogo.png"
   },
   {
-    "title": "The Colony (Project 3)",
-    "description": "This was my third team project. It is meant to be a game similiar to Jackbox and One Night Ultimate Wearwolf. The site is meant to act as the motirator for the game and would allow people to connect using their phones. Timers would be used to move the game along and allow players to vote and do some actions on their phones. The website was not get completed and does not really function. It will allow players to connect via socket.io but the game does not play.",
-    "technologies": "React, Redux, Socket.io, MongoDB, Mongoose, Express, and Node.",
-    "link": "https://voyage-mandarine-71760.herokuapp.com/",
-    "github": "https://github.com/MerekSmith/The-Colony",
-    "type": "School",
-    "image": "./assets/projects/colony.JPG"
-  },
-  {
     "title": "Rock Paper Scissors Multiplayer",
     "description": "This is a multiplayer game of Rock, Paper, Scissors using Firebase as the database and server for multiple user connections. 2 players can join into the game and play along while chatting together using the chat box.",
     "technologies": "HTML, CSS, and Firebase.",
@@ -70,6 +70,15 @@
     "github": "https://github.com/MerekSmith/nytReactSocket",
     "type": "School",
     "image": "./assets/projects/nyt_articles.png"
+	},
+	{
+    "title": "The Colony (Project 3)",
+    "description": "This was my third team project. It is meant to be a game similiar to Jackbox and One Night Ultimate Wearwolf. The site is meant to act as the motirator for the game and would allow people to connect using their phones. Timers would be used to move the game along and allow players to vote and do some actions on their phones. The website was not get completed and does not really function. It will allow players to connect via socket.io but the game does not play.",
+    "technologies": "React, Redux, Socket.io, MongoDB, Mongoose, Express, and Node.",
+    "link": "https://voyage-mandarine-71760.herokuapp.com/",
+    "github": "https://github.com/MerekSmith/The-Colony",
+    "type": "School",
+    "image": "./assets/projects/colony.JPG"
   },
   {
     "title": "Giphy API!",
