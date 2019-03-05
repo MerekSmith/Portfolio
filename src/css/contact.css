@@ -98,7 +98,8 @@
 	background-color: rgba(0, 0, 0, 0.7);
   padding: 5px;
   margin-left: 5px;
-  margin-right: 5px;
+	margin-right: 5px;
+	margin-bottom: 20px;
 }
 
 .contact-info-col {
@@ -116,4 +117,12 @@
 	color: white;
 	display: inline-block;
 	margin: 0;
+}
+
+ /* responsive css, fixes height issue on sideways phone.*/
+ @media only screen and (max-width: 640px) {
+	.hero-contact-container {
+		height: 100%;
+	}
+
 }
