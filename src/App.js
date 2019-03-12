@@ -10,40 +10,38 @@ import "./App.css";
 // import "./css/navbar.css";
 // import "./css/home.css";
 // import "./css/about.css";
-import AOS from 'aos';
+import AOS from "aos";
 
 AOS.init();
 
-
 class App extends Component {
-
   loader() {
-    const ele = document.getElementById('ipl-progress-indicator')
+    const ele = document.getElementById("ipl-progress-indicator");
     if (ele) {
       // fade out
-      ele.classList.add('available')
+      ele.classList.add("available");
       setTimeout(() => {
         // remove from DOM
-        ele.outerHTML = ''
-      }, 2000)
+        ele.outerHTML = "";
+      }, 2000);
     }
   }
 
   componentDidMount() {
-    window.addEventListener('load', this.loader());
+    window.addEventListener("load", this.loader());
   }
 
   render() {
     return (
       <Router>
         {/* <Router onUpdate={() => window.scrollTo(0, 0)}> */}
-        <div className="container-fluid portfolio">
+        <div className='container-fluid portfolio'>
           <Navbar />
           <Switch>
-            <Route exact path="/" component={Home} rel="preload" />
-            <Route exact path="/about" component={About} rel="preload" />
-            <Route exact path="/projects" component={Projects} rel="preload" />
-            <Route exact path="/contact" component={Contact} rel="preload" />
+            <Route exact path='/' component={About} rel='preload' />
+            <Route exact path='/home' component={Home} rel='preload' />
+            <Route exact path='/projects' component={Projects} rel='preload' />
+            <Route exact path='/contact' component={Contact} rel='preload' />
             {/* <Route component={NoMatch} /> */}
           </Switch>
         </div>
@@ -51,6 +49,5 @@ class App extends Component {
     );
   }
 }
-
 
 export default App;

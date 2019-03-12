@@ -31,22 +31,21 @@ function browserCheck() {
 
 browserCheck();
 
-
 const About = props => (
-  <div className="about">
-    <div className={`parallax bg1 ${ieParallax ? 'ie-parallax' : null}`}>
-      <div className="parallax-caption">
-        <span className="border">Me in a Nutshell</span>
+  <div className='about'>
+    <div className={`parallax bg1 ${ieParallax ? "ie-parallax" : null}`}>
+      <div className='parallax-caption'>
+        <span className='border'>Me in a Nutshell</span>
       </div>
     </div>
 
-    <div className="about-me">
+    <div className='about-me'>
       <h2>How Did I Get in This Nutshell?</h2>
-      <div className="row">
-        <div className="col-md-2 portrait-container about-me-col">
-          <img className="portrait" src={portrait} alt="portrait" />
+      <div className='row'>
+        <div className='col-md-2 portrait-container about-me-col'>
+          <img className='portrait' src={portrait} alt='portrait' />
         </div>
-        <div className="col-md-8 about-me-col">
+        <div className='col-md-8 about-me-col'>
           <p>
             I am a full stack web developer with a background in Supply Chain
             and Finance. I recently graduated the Coding Bootcamp from the
@@ -58,31 +57,37 @@ const About = props => (
             career change into Web Development. I am a quick learner with a
             strong work ethic and constantly strive to learn more and progress.
           </p>
-						I would like to invite you to to click on the certificate logo here to see all of the technologies learned during The Coding Bootcamp I attended.
+          I would like to invite you to to click on the certificate logo here to
+          see all of the technologies learned during The Coding Bootcamp I
+          attended.
           <p />
         </div>
-        <div className="col-md-2 dev-cert-container">
-          <a href="https://www.youracclaim.com/badges/f2b648dd-7ec6-4821-a6f6-073a4b4cb359/public_url" target="_blank" rel="noopener noreferrer">
+        <div className='col-md-2 dev-cert-container'>
+          <a
+            href='https://www.youracclaim.com/badges/f2b648dd-7ec6-4821-a6f6-073a4b4cb359/public_url'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <img
-              className="dev-cert"
+              className='dev-cert'
               src={devCert}
-              alt="Coding Bootcamp Certificate"
+              alt='Coding Bootcamp Certificate'
             />
           </a>
         </div>
       </div>
     </div>
 
-    <div className={`parallax bg2 ${ieParallax ? 'ie-parallax' : null}`}>
-      <div className="parallax-caption">
-        <span className="border">My Work History</span>
+    <div className={`parallax bg2 ${ieParallax ? "ie-parallax" : null}`}>
+      <div className='parallax-caption'>
+        <span className='border'>My Work History</span>
       </div>
     </div>
 
-    <div className="work">
+    <div className='work'>
       {/* <h2>About Me</h2> */}
 
-      <div className="work-container">
+      <div className='work-container'>
         {/* Web Dev Logo */}
         <History historyType={"jobs"} />
 
@@ -90,13 +95,13 @@ const About = props => (
         {/* <a href="./directory/yourfile.pdf" download="newfilename"> */}
 
         {/* Resume Link */}
-        <div className="resume-container">
+        <div className='resume-container'>
           <a
-            href="https://drive.google.com/file/d/1KhrPkaNFVGLsKodvtapi0Y50yko9TePg/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-lg btn-outline-secondary resume-btn"
-            role="button"
+            href='https://drive.google.com/file/d/1KhrPkaNFVGLsKodvtapi0Y50yko9TePg/view?usp=sharing'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='btn btn-lg btn-danger resume-btn'
+            role='button'
           >
             View My Resume
           </a>
@@ -107,29 +112,29 @@ const About = props => (
       {/* end of work */}
     </div>
 
-    <div className={`parallax bg3 ${ieParallax ? 'ie-parallax' : null}`}>
-      <div className="parallax-caption">
-        <span className="border">Schooling</span>
+    <div className={`parallax bg3 ${ieParallax ? "ie-parallax" : null}`}>
+      <div className='parallax-caption'>
+        <span className='border'>Schooling</span>
       </div>
     </div>
 
     {/* schooling */}
-    <div className="schooling">
+    <div className='schooling'>
       {/* <h2>Schooling</h2> */}
 
-      <div className="schools-container">
+      <div className='schools-container'>
         <History historyType={"schools"} />
       </div>
     </div>
     {/* school end */}
 
-    <div className={`parallax bg4 ${ieParallax ? 'ie-parallax' : null}`}>
-      <div className="parallax-caption">
-        <span className="border">Personal Interests</span>
+    <div className={`parallax bg4 ${ieParallax ? "ie-parallax" : null}`}>
+      <div className='parallax-caption'>
+        <span className='border'>Personal Interests</span>
       </div>
     </div>
 
-    <div className="personal">
+    <div className='personal'>
       {/* <h2>Personal Interests</h2> */}
       <p>
         When I am not working on web development, I love to spend time with my
@@ -143,9 +148,9 @@ const About = props => (
       </p>
     </div>
 
-    <div className={`parallax bg5 ${ieParallax ? 'ie-parallax' : null}`}>
-      <div className="parallax-caption">
-        <span className="border">Thanks for looking!</span>
+    <div className={`parallax bg5 ${ieParallax ? "ie-parallax" : null}`}>
+      <div className='parallax-caption'>
+        <span className='border'>Thanks for looking!</span>
       </div>
     </div>
 

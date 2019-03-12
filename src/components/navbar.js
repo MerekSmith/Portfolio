@@ -56,63 +56,74 @@ browserCheck();
 const Navbar = props => (
   <nav
     className={`navbar navbar-expand-lg navbar-dark bg-dark ${navClass}`}
-    role="navigation"
+    role='navigation'
   >
-    <Link className="navbar-brand" to="/">
+    <Link className='navbar-brand' to='/'>
       <img
         src={favicon}
-        width="30px"
-        height="30px"
-        alt="M"
-        className="favicon animated flip"
+        width='30px'
+        height='30px'
+        alt='M'
+        className='favicon animated flip'
       />
     </Link>
     <button
-      className="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
+      className='navbar-toggler'
+      type='button'
+      data-toggle='collapse'
+      data-target='#navbarNav'
+      aria-controls='navbarNav'
+      aria-expanded='false'
+      aria-label='Toggle navigation'
     >
-      <span className="navbar-toggler-icon" />
+      <span className='navbar-toggler-icon' />
     </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
-      <div className="navbar-nav">
+    <div className='collapse navbar-collapse' id='navbarNav'>
+      <div className='navbar-nav'>
         <Link
-          className="nav-item nav-link btn btn-sm btn-outline-secondary nav-btn"
-          to="/"
+          className='nav-item nav-link btn btn-sm btn-outline-secondary nav-btn'
+          to='/home'
         >
           {/* <img src={home} alt="Home" className="nav-icon" /> */}
-          <i className="fas fa-home nav-icon" />
+          <i className='fas fa-home nav-icon' />
           Home
         </Link>
         <Link
-          className="nav-item nav-link btn btn-sm btn-outline-secondary nav-btn"
-          to="/about"
+          className='nav-item nav-link btn btn-sm btn-outline-secondary nav-btn'
+          to='/'
         >
-					{/* <img src={me} alt="Home" className="nav-icon" /> */}
-					<i className="fas fa-user nav-icon"></i>
+          {/* <img src={me} alt="Home" className="nav-icon" /> */}
+          <i className='fas fa-user nav-icon' />
           About Me
         </Link>
         <Link
-          className="nav-item nav-link btn btn-sm btn-outline-secondary nav-btn"
-          to="/projects"
+          className='nav-item nav-link btn btn-sm btn-outline-secondary nav-btn'
+          to='/projects'
         >
-					{/* <img src={projects} alt="Home" className="nav-icon" /> */}
-					<i className="fas fa-project-diagram nav-icon"></i>
+          {/* <img src={projects} alt="Home" className="nav-icon" /> */}
+          <i className='fas fa-project-diagram nav-icon' />
           Projects
         </Link>
         <Link
-          className="nav-item nav-link btn btn-sm btn-outline-secondary nav-btn"
-          to="/contact"
+          className='nav-item nav-link btn btn-sm btn-outline-secondary nav-btn'
+          to='/contact'
           // aria-disabled="true"
         >
-					{/* <img src={contact} alt="Home" className="nav-icon" /> */}
-					<i className="fas fa-envelope nav-icon"></i>
+          {/* <img src={contact} alt="Home" className="nav-icon" /> */}
+          <i className='fas fa-envelope nav-icon' />
           Contact Me
         </Link>
+        {/* <div className='resume-container'> */}
+        <a
+          href='https://drive.google.com/file/d/1KhrPkaNFVGLsKodvtapi0Y50yko9TePg/view?usp=sharing'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='btn btn-danger nav-resume-btn'
+          role='button'
+        >
+          View My Resume
+        </a>
+        {/* </div> */}
       </div>
     </div>
   </nav>
