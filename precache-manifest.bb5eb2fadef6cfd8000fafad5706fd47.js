@@ -4,36 +4,36 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/sql.1a350423.png"
   },
   {
-    "revision": "6c699d40b4a0ace64ffb",
+    "revision": "4c1ac115f7e8bd5dc6a1",
     "url": "/Portfolio/static/css/main.7f4dbe8f.chunk.css"
   },
   {
-    "revision": "c7796c5763ed8b7c7147",
-    "url": "/Portfolio/static/js/1.c7796c57.chunk.js"
+    "revision": "20b6b65902f3ebb3a7a4",
+    "url": "/Portfolio/static/js/1.20b6b659.chunk.js"
   },
   {
     "revision": "3b96116072eb85f5a3a2",
     "url": "/Portfolio/static/js/runtime~main.3b961160.js"
   },
   {
-    "revision": "23b0712fde19a5f22b64f00b2e4ef6e2",
-    "url": "/Portfolio/static/media/parallax_dc_jl_lineup.23b0712f.jpg"
-  },
-  {
     "revision": "6aa56c6d9d2733676b7ef307bed2b7e2",
     "url": "/Portfolio/static/media/background_ironman_vs_cap.6aa56c6d.jpg"
+  },
+  {
+    "revision": "23b0712fde19a5f22b64f00b2e4ef6e2",
+    "url": "/Portfolio/static/media/parallax_dc_jl_lineup.23b0712f.jpg"
   },
   {
     "revision": "96ad8ea453afbdd9e7ac4591d0e91a2b",
     "url": "/Portfolio/static/media/parallax_avengers_lineup.96ad8ea4.jpg"
   },
   {
-    "revision": "13e32c470d0692f80ee30f6de68eeb77",
-    "url": "/Portfolio/static/media/parallax_game_table_blurred.13e32c47.jpg"
-  },
-  {
     "revision": "3d54ebeefb1c07470bbd691e961c0a11",
     "url": "/Portfolio/static/media/parallax_re2_rain.3d54ebee.jpg"
+  },
+  {
+    "revision": "13e32c470d0692f80ee30f6de68eeb77",
+    "url": "/Portfolio/static/media/parallax_game_table_blurred.13e32c47.jpg"
   },
   {
     "revision": "2b8d3e62f4808b4b0dd7731d3602f368",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/sequelize.75c41c4b.png"
   },
   {
-    "revision": "6c699d40b4a0ace64ffb",
-    "url": "/Portfolio/static/js/main.6c699d40.chunk.js"
+    "revision": "4c1ac115f7e8bd5dc6a1",
+    "url": "/Portfolio/static/js/main.4c1ac115.chunk.js"
   },
   {
     "revision": "3f981acdd2c7c5959db6de937efb4aea",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/background_rainbow_space.2e6804ee.jpg"
   },
   {
-    "revision": "a0827998e2f4df418010e58d5b1f252c",
+    "revision": "fc4fc2315d123e1ac75a48fc7c76ca79",
     "url": "/Portfolio/index.html"
   }
 ];
