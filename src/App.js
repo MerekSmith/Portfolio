@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import { ParallaxProvider } from "react-scroll-parallax";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
@@ -33,7 +33,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         {/* <Router onUpdate={() => window.scrollTo(0, 0)}> */}
         <div className='container-fluid portfolio'>
           <Navbar />
