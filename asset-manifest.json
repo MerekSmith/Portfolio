@@ -1,13 +1,13 @@
 {
   "main.css": "/Portfolio/static/css/main.7f4dbe8f.chunk.css",
-  "main.js": "/Portfolio/static/js/main.4c1ac115.chunk.js",
-  "main.js.map": "/Portfolio/static/js/main.4c1ac115.chunk.js.map",
-  "static/js/1.20b6b659.chunk.js": "/Portfolio/static/js/1.20b6b659.chunk.js",
-  "static/js/1.20b6b659.chunk.js.map": "/Portfolio/static/js/1.20b6b659.chunk.js.map",
+  "main.js": "/Portfolio/static/js/main.71639724.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.71639724.chunk.js.map",
+  "static/js/1.c7796c57.chunk.js": "/Portfolio/static/js/1.c7796c57.chunk.js",
+  "static/js/1.c7796c57.chunk.js.map": "/Portfolio/static/js/1.c7796c57.chunk.js.map",
   "runtime~main.js": "/Portfolio/static/js/runtime~main.3b961160.js",
   "runtime~main.js.map": "/Portfolio/static/js/runtime~main.3b961160.js.map",
   "static/media/ostk_logo.png": "/Portfolio/static/media/ostk_logo.8e0cf470.png",
-  "static/media/about.css": "/Portfolio/static/media/parallax_dc_jl_lineup.23b0712f.jpg",
+  "static/media/about.css": "/Portfolio/static/media/parallax_re2_rain.3d54ebee.jpg",
   "static/media/projects.css": "/Portfolio/static/media/background_milky_way.2b8d3e62.jpg",
   "static/media/m_favicon.ico": "/Portfolio/static/media/m_favicon.6664e469.ico",
   "static/media/MERN_stack.jpg": "/Portfolio/static/media/MERN_stack.4a7e12d7.jpg",
@@ -29,6 +29,6 @@
   "static/media/contact.css": "/Portfolio/static/media/background_rainbow_space.2e6804ee.jpg",
   "static/css/main.7f4dbe8f.chunk.css.map": "/Portfolio/static/css/main.7f4dbe8f.chunk.css.map",
   "index.html": "/Portfolio/index.html",
-  "precache-manifest.bb5eb2fadef6cfd8000fafad5706fd47.js": "/Portfolio/precache-manifest.bb5eb2fadef6cfd8000fafad5706fd47.js",
+  "precache-manifest.598b6b69e1578429a455e01e1888c466.js": "/Portfolio/precache-manifest.598b6b69e1578429a455e01e1888c466.js",
   "service-worker.js": "/Portfolio/service-worker.js"
 }
