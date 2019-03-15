@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 // import { ParallaxProvider } from "react-scroll-parallax";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
