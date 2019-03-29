@@ -69,21 +69,21 @@ const History = props =>
     <div className={props.historyType}>
       {schools.map((school, index) => {
         return (
-          <div className="row school" key={index}>
-            <div className="col-md-3" />
-            <div className="col-md-2 logo">
-              <a href={school.link} target="_blank" rel="noopener noreferrer">
+          <div className='row school' key={index}>
+            <div className='col-md-3' />
+            <div className='col-md-2 logo'>
+              <a href={school.link} target='_blank' rel='noopener noreferrer'>
                 <img
                   src={school.logo}
                   alt={school.alt}
-                  className="school-logo"
+                  className='school-logo'
                 />
               </a>
             </div>
-            <div className="col-md-7 school-col">
-              <div className="degree">{school.degree}</div>
+            <div className='col-md-7 school-col'>
+              <div className='degree'>{school.degree}</div>
               <span> {school.graduated} </span>
-              <span className="divider"> | </span>
+              <span className='divider'> | </span>
               <span> {school.school} </span>
             </div>
           </div>
@@ -95,21 +95,17 @@ const History = props =>
     <div className={props.historyType}>
       {jobs.map((job, index) => {
         return (
-          <div className="row job" key={index}>
-            <div className="col-md-3" />
-            <div className="col-md-2 logo">
-              <a href={job.link} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={job.logo}
-                  alt={job.alt}
-                  className="job-logo"
-                />
+          <div className='row job' key={index}>
+            <div className='col-md-3' />
+            <div className='col-md-2 logo'>
+              <a href={job.link} target='_blank' rel='noopener noreferrer'>
+                <img src={job.logo} alt={job.alt} className='job-logo' />
               </a>
             </div>
-            <div className="col-md-7 job-col">
-              <div className="company">{job.company}</div>
+            <div className='col-md-7 job-col'>
+              <div className='company'>{job.company}</div>
               <span> {job.title} </span>
-              <span className="divider"> | </span>
+              <span className='divider'> | </span>
               <span> {job.time} </span>
             </div>
           </div>

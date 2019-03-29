@@ -76,6 +76,7 @@ import "../css/contact.css";
     // );
   }
 
+	
   render() {
     return (
       <div className="hero-contact-container">

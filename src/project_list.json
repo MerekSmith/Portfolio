@@ -10,7 +10,7 @@
   },
   {
     "title": "Hangman Game",
-    "description": "This is a simple Hangman game made in React. It was made for my daughter so the current word list is designed for a 5-6 year old. It has some additional checks to make sure there are no duplicate words or the user hits the same letter or non-letter key.",
+    "description": "This is a simple Hangman game made in React. It was made for my daughter so the current 1 Player word list is designed for a 5-6 year old. It also has a 2 player option where the users can enter in their own words. It has some additional checks to make sure there are no duplicate words or the user hits the same letter or non-letter key.",
     "technologies": "React.",
     "link": "https://hangman-game-react.herokuapp.com/",
     "github": "https://github.com/MerekSmith/Hangman-React",
@@ -25,8 +25,17 @@
     "github": "https://github.com/MerekSmith/Simpsons-Memory-Game",
     "type": "School",
     "image": "./assets/projects/simpsons_memory_game.png"
-	},
-	{
+  },
+  {
+    "title": "Client Panel",
+    "description": "This is a simple client manager app where a user can input in a client and keep track of a balance owed. This is a CRUD app which uses React as the framework for a SPA and Firebase as the database. It also uses Firebase authentication. To test the site, you can use the username: tester@tester.com and password: tester. You are also able to register your own user account.",
+    "technologies": "React, Redux, Firebase, Bootstrap.",
+    "link": "https://reactclientpanel-dee1c.firebaseapp.com/register/",
+    "github": "https://github.com/MerekSmith/clientpanel-react",
+    "type": "Online Course",
+    "image": "./assets/projects/clientpanel.png"
+  },
+  {
     "title": "New York Times Article API",
     "description": "This site uses the New York Times API to pull articles based on provided search criteria. You can then save the article to the database and add a note. Each time an article is saved, socket.io is used to alert other users that a new article is in the saved articles section. There is also a bonus countdown timer that is just a demonstration of socket.io. The timer will be the same for every user on the site and continues to reset after 30 seconds.",
     "technologies": "React, MongoDB, Mongoose, Node, Express, and socket.io.",
@@ -34,7 +43,7 @@
     "github": "https://github.com/MerekSmith/nytReactSocket",
     "type": "School",
     "image": "./assets/projects/nyt_articles.png"
-	},
+  },
   {
     "title": "Avengers Fighting Game",
     "description": "This is fighting game with an Avengers theme. It has over 15 characters available but each game is randomized by which characters are available and their stats. You must pick wisely in order to defeat them all before you run out of hp. This uses jQuery to dynammically add or update elements.",
@@ -71,7 +80,7 @@
     "type": "School",
     "image": "./assets/projects/rps_game.png"
   },
-	{
+  {
     "title": "The Colony (Project 3)",
     "description": "This was my third team project. It is meant to be a game similiar to Jackbox and One Night Ultimate Wearwolf. The site is meant to act as the motirator for the game and would allow people to connect using their phones. Timers would be used to move the game along and allow players to vote and perform actions. The website was not get completed and does not really function. It will allow players to connect via socket.io but the game does not play.",
     "technologies": "React, Redux, Socket.io, MongoDB, Mongoose, Express, and Node.",
@@ -106,8 +115,8 @@
     "github": "https://github.com/MerekSmith/Psychic-Game",
     "type": "School",
     "image": "./assets/projects/pyschic_game.JPG"
-	},
-	{
+  },
+  {
     "title": "Constructor Hangman (Node)",
     "description": "A hangman game made using constructors and node.js. This only runs in Node on a command prompt window. There are some color coding that helps prompt the user when the letter is correct or incorrect along with how many guesses remain.",
     "technologies": "Node.js, jQuery.",
@@ -115,8 +124,8 @@
     "github": "https://github.com/MerekSmith/Constructor_Hangman",
     "type": "School",
     "image": "./assets/projects/constuctor_hangman.jpg"
-	},
-	{
+  },
+  {
     "title": "DigitalPal (Node)",
     "description": "This is a tamagotchi type app where you can make choices of how to take care of a digital pet. It is only played through Node and a command prompt window.",
     "technologies": "Javascript, Inquirer, Node.js.",
