@@ -1,11 +1,9 @@
-
 .hero-home-container {
-  
   background: url("../assets/images/parallax_spiderverse.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-	height: 100vh;
-	opacity: .8;
+  height: calc(100vh - 59px);
+  opacity: 0.8;
   overflow: hidden;
   position: relative;
   /* Useful for any “absolute” positioned elements inside */
@@ -31,11 +29,11 @@
   margin: 0 auto;
   background-color: #111;
   color: #fff;
-  border: 1px solid #dee2e6!important;
+  border: 1px solid #dee2e6 !important;
   padding: 10px;
   font-size: 25px;
   letter-spacing: 5px;
-  opacity: .85;
+  opacity: 0.85;
 }
 
 .icon-group {
