@@ -1,11 +1,11 @@
-
 .hero-contact-container {
-  background: url("../assets/images/background_rainbow_space.jpg") no-repeat center;
+  background: url("../assets/images/background_rainbow_space.jpg") no-repeat
+    center;
   background-size: cover;
-	height: 120vh;
-	overflow: hidden;
-	/* width: 100vw; */
-	/* position: relative; */
+  height: calc(100vh - 59px);
+  overflow: hidden;
+  /* width: 100vw; */
+  /* position: relative; */
   /* Useful for any “absolute” positioned elements inside */
 }
 
@@ -43,8 +43,8 @@
 }
 
 .row {
-	margin-right: 0;
-	margin-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .col-md-6,
@@ -68,12 +68,12 @@
 
 .btn {
   width: 200px;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .submit-response {
-	height: 50px;
-	padding: 5px;
+  height: 50px;
+  padding: 5px;
 }
 
 .required {
@@ -81,48 +81,47 @@
 }
 
 .success {
-	font-size: 24px;
-	font-weight: bold;
-	color: white;
-	text-align: center;
-	border: 1px solid #ced4da;
-	border-radius: 0.25rem;
-	background-color: rgba(0, 0, 0, 0.7);
-	max-width: 380px;
-	margin: 0 auto;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 380px;
+  margin: 0 auto;
 }
 
 .contact-info-row {
-	border: 1px solid #ced4da;
-	border-radius: 0.25rem;
-	background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 5px;
   margin-left: 5px;
-	margin-right: 5px;
-	margin-bottom: 20px;
+  margin-right: 5px;
+  margin-bottom: 20px;
 }
 
 .contact-info-col {
-	padding: 0;
-	text-align: center;
+  padding: 0;
+  text-align: center;
 }
 
 .contact-icon {
-	color: dodgerblue;
-	display: inline-block;
-	margin-right: 10px;
+  color: dodgerblue;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .contact-info {
-	color: white;
-	display: inline-block;
-	margin: 0;
+  color: white;
+  display: inline-block;
+  margin: 0;
 }
 
- /* responsive css, fixes height issue on sideways phone.*/
- @media only screen and (max-width: 640px) {
-	.hero-contact-container {
-		height: 100%;
-	}
-
+/* responsive css, fixes height issue on sideways phone.*/
+@media only screen and (max-width: 640px) {
+  .hero-contact-container {
+    height: 100%;
+  }
 }

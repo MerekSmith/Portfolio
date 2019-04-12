@@ -1,5 +1,14 @@
 [
   {
+    "title": "Devconnector Social Network",
+    "description": "This is a full stack MERN app which is meant to be a social network for developers. It includes token authentication for logins, Redux for state management, and allows users to create a profile, add credientials, and post comments.",
+    "technologies": "React, Redux, Mongodb, Mongoose, Express, Node, Bootstrap, React-Router, classnames.",
+    "link": "https://devconnector-mernstack.herokuapp.com/",
+    "github": "https://github.com/MerekSmith/devconnector-mernstack",
+    "type": "Online Course",
+    "image": "./assets/projects/devconnector.jpg"
+  },
+  {
     "title": "Trivia Game",
     "description": "This is a fun, trivia game. It is connected to a public trivia API that allows for several choices to be made such as difficulty and topic. The game also includes timers that help move that game forward.",
     "technologies": "HTML, CSS, Timers, and an API",
@@ -29,7 +38,7 @@
   {
     "title": "Client Panel",
     "description": "This is a simple client manager app where a user can input in a client and keep track of a balance owed. This is a CRUD app which uses React as the framework for a SPA and Firebase as the database. It also uses Firebase authentication. To test the site, you can use the username: tester@tester.com and password: tester. You are also able to register your own user account.",
-    "technologies": "React, Redux, Firebase, Bootstrap.",
+    "technologies": "React, Redux, Firebase, Bootstrap, classnames.",
     "link": "https://reactclientpanel-dee1c.firebaseapp.com/register/",
     "github": "https://github.com/MerekSmith/clientpanel-react",
     "type": "Online Course",
