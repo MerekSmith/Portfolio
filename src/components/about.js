@@ -137,6 +137,15 @@ const About = props => (
     <div className='personal'>
       {/* <h2>Personal Interests</h2> */}
       <p>
+        I have a strong passion for learning and improving myself. I actively
+        seek out new challanges, in many forms, and push myself to take risks
+        and be willing to make mistakes. I have a goal of reading 2-4 books each
+        month which are generally personal growth books. I enjoy keeping myself
+        mentally active as well as physically active. I have been active in
+        weight lifting for over 10 years and also enjoy Yoga and playing
+        Racquetball.
+      </p>
+      <p>
         When I am not working on web development, I love to spend time with my
         family. My newly found, favorite hobby is playing board games. I have
         over 100 unique, modern board games. Part of my collection includes
