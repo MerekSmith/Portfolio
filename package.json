@@ -6,9 +6,10 @@
   "dependencies": {
     "animate.css": "^3.7.0",
     "aos": "^2.3.4",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
+    "mdbreact": "^4.16.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-lazy-hero": "^2.0.0",

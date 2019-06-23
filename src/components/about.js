@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/about.css";
 import History from "./history";
+import Games from "./gameTable";
 
 import portrait from "../assets/images/profilepic.jpg";
 import devCert from "../assets/images/uofu webdev certificate-large.png";
@@ -161,6 +162,10 @@ const About = props => (
       <div className='parallax-caption'>
         <span className='border'>Thanks for looking!</span>
       </div>
+    </div>
+
+    <div className='personal'>
+      <Games />
     </div>
 
     {/* end parent div */}
