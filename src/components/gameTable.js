@@ -47,13 +47,13 @@ class gameTable extends Component {
           label: "Year Published",
           field: "yearPublished",
           sort: "asc",
-          width: 270
+          width: 50
         },
         {
           label: "Expansion",
           field: "isExpansion",
           sort: "asc",
-          width: 200
+          width: 100
         },
         {
           label: "BGG Rank",
