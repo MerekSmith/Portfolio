@@ -39,7 +39,6 @@ const About = props => (
         <span className='border'>Me in a Nutshell</span>
       </div>
     </div>
-
     <div className='about-me'>
       <h2>How Did I Get in This Nutshell?</h2>
       <div className='row'>
@@ -78,13 +77,11 @@ const About = props => (
         </div>
       </div>
     </div>
-
     <div className={`parallax bg2 ${ieParallax ? "ie-parallax" : null}`}>
       <div className='parallax-caption'>
         <span className='border'>My Work History</span>
       </div>
     </div>
-
     <div className='work'>
       {/* <h2>About Me</h2> */}
 
@@ -112,13 +109,11 @@ const About = props => (
       </div>
       {/* end of work */}
     </div>
-
     <div className={`parallax bg3 ${ieParallax ? "ie-parallax" : null}`}>
       <div className='parallax-caption'>
         <span className='border'>Schooling</span>
       </div>
     </div>
-
     {/* schooling */}
     <div className='schooling'>
       {/* <h2>Schooling</h2> */}
@@ -128,13 +123,11 @@ const About = props => (
       </div>
     </div>
     {/* school end */}
-
     <div className={`parallax bg4 ${ieParallax ? "ie-parallax" : null}`}>
       <div className='parallax-caption'>
         <span className='border'>Personal Interests</span>
       </div>
     </div>
-
     <div className='personal'>
       {/* <h2>Personal Interests</h2> */}
       <p>
@@ -161,16 +154,18 @@ const About = props => (
         consider myself a very handy person.
       </p>
     </div>
-
     <div className={`parallax bg5 ${ieParallax ? "ie-parallax" : null}`}>
       <div className='parallax-caption'>
         <span className='border'>Thanks for looking!</span>
       </div>
     </div>
 
-    <div className='personal'>
-      <Games />
-    </div>
+    {/* Would love to find a better way to make this dynamically determine if the screen width is below 640 to remove the games table. Once it goes on a mobile phone below width of about 400px (in portrait), the table does not respond properly and makes the entire page too wide and adds a blank white section to the right. */}
+    {window.screen.availWidth > 640 ? (
+      <div className='personal'>
+        <Games />
+      </div>
+    ) : null}
 
     {/* end parent div */}
   </div>
