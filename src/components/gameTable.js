@@ -67,6 +67,11 @@ class gameTable extends Component {
     return (
       <div>
         <h1 style={{ textAlign: "center" }}>Game Collection</h1>
+        <h5 style={{ textAlign: "center" }}>
+          *This data of my personal game collection comes from a custom
+          BoardGameGeek API. This is to both demonstrate usage of an API and to
+          display what games I own.
+        </h5>
         <MDBDataTable striped bordered hover data={data} />
       </div>
     );
