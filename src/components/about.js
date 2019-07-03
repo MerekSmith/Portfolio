@@ -37,7 +37,7 @@ class About extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      tableWidth: false
+      tableWidth: window.innerWidth > 500 ? true : false
     };
   }
 
