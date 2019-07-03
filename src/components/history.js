@@ -43,7 +43,7 @@ const jobs = [
     link: "https://www.overstock.com",
     company: "Overstock.com",
     title: "Supply Chain Analyst",
-    time: "Mar 2018 - Present"
+    time: "Mar 2018 - Mar 2019"
   },
   {
     logo: blyLogo,
