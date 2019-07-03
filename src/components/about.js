@@ -49,14 +49,14 @@ const About = props => (
         <div className='col-md-8 about-me-col'>
           <p>
             I am a full stack web developer with a background in Supply Chain
-            and Finance. I recently graduated the Coding Bootcamp from the
-            University of Utah in July 2018. I primarily learned and use the
+            Analytics and Finance. I recently graduated the Coding Bootcamp from
+            the University of Utah in July 2018. I primarily learned and use the
             MERN stack and am currently working to continue my education in web
             development. I am taking several more online courses to further my
-            knowledge, with a focus on React and Redux. I am currently working
-            as a Supply Chain Analyst with Overstock.com but am pursuing a
-            career change into Web Development. I am a quick learner with a
-            strong work ethic and constantly strive to learn more and progress.
+            knowledge, with a focus on React and Redux. I am currently pursuing
+            a career change into Web Development and am extremely excited to
+            start that journey. I am a quick learner with a strong work ethic
+            and constantly strive to learn more and progress.
           </p>
           I would like to invite you to to click on the certificate logo here to
           see all of the technologies learned during The Coding Bootcamp I
