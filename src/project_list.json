@@ -54,6 +54,15 @@
     "image": "./assets/projects/nyt_articles.png"
   },
   {
+    "title": "Chat App",
+    "description": "This site uses the New York Times API to pull articles based on provided search criteria. You can then save the article to the database and add a note. Each time an article is saved, socket.io is used to alert other users that a new article is in the saved articles section. There is also a bonus countdown timer that is just a demonstration of socket.io. The timer will be the same for every user on the site and continues to reset after 30 seconds.",
+    "technologies": "React, Node, Express, and socket.io.",
+    "link": "https://stark-headland-42028.herokuapp.com/",
+    "github": "https://github.com/MerekSmith/ChatApp",
+    "type": "Online Course",
+    "image": "./assets/projects/chatapp.jpg"
+  },
+  {
     "title": "Avengers Fighting Game",
     "description": "This is fighting game with an Avengers theme. It has over 15 characters available but each game is randomized by which characters are available and their stats. You must pick wisely in order to defeat them all before you run out of hp. This uses jQuery to dynammically add or update elements.",
     "technologies": "jQuery, Bootstrap.",

@@ -76,8 +76,18 @@ class About extends Component {
             </div>
             <div className='col-md-8 about-me-col'>
               <p>
-                I am a full stack web developer with a background in Supply
-                Chain Analytics and Finance. I recently graduated the Coding
+                I have always enjoyed working with computers but from the moment
+                I went through The Coding Bootcamp course, I knew development
+                was what I wanted to do the rest of my career. Web Development
+                has not been the normal grind for me but an outlet for my
+                creativity and a way to engage the challenge of continually
+                learning, growing, and improving my skills. This brought me back
+                to my passion for technology and has only gotten more exciting
+                as time goes by.
+              </p>
+              <p>
+                I am a full stack web developer with a background in Analytics,
+                Supply Chain, and Finance. I recently graduated the Coding
                 Bootcamp from the University of Utah in July 2018. I primarily
                 learned and use the MERN stack and am currently working to
                 continue my education in web development. I am taking several
@@ -87,10 +97,12 @@ class About extends Component {
                 I am a quick learner with a strong work ethic and constantly
                 strive to learn more and progress.
               </p>
-              I would like to invite you to to click on the certificate logo
-              here to see all of the technologies learned during The Coding
-              Bootcamp I attended.
-              <p />
+              <p>
+                I would like to invite you to check out my projects page to
+                showcase my skills as well as click on the certificate logo here
+                to see all of the technologies learned during The Coding
+                Bootcamp I attended.
+              </p>
             </div>
             <div className='col-md-2 dev-cert-container'>
               <a
