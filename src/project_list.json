@@ -9,6 +9,15 @@
     "image": "./assets/projects/devconnector.jpg"
   },
   {
+    "title": "Emaily",
+    "description": "This is a full stack MERN app which allows users to send out surveys to mutiple clients requesting feedback. The users pay for credits using Stripe and the email service utilizes SendGrid. When clients respond to their emails, the user can see the responses on their survey dashboard. This app uses GoogleAuth for logging in.",
+    "technologies": "React, Redux, Mongodb, Mongoose, Express, Node, Bootstrap, React-Router, GoogleAuth, Stripe, SendGrid.",
+    "link": "https://blooming-ravine-37747.herokuapp.com/",
+    "github": "https://github.com/MerekSmith/Emaily",
+    "type": "Online Course",
+    "image": "./assets/projects/emaily.jpg"
+  },
+  {
     "title": "Trivia Game",
     "description": "This is a fun, trivia game. It is connected to a public trivia API that allows for several choices to be made such as difficulty and topic. The game also includes timers that help move that game forward.",
     "technologies": "HTML, CSS, Timers, and an API",

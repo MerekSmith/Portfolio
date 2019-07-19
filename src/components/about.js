@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../css/about.css";
-import History from "./history";
-import Games from "./gameTable";
+import History from "./History";
+import Games from "./GameTable";
 
 import portrait from "../assets/images/profilepic.jpg";
 import devCert from "../assets/images/uofu webdev certificate-large.png";

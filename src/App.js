@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import { ParallaxProvider } from "react-scroll-parallax";
-import Navbar from "./components/navbar";
-import Home from "./components/home";
-import About from "./components/about";
-import Projects from "./components/projects";
-import Contact from "./components/contact";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import "./App.css";
 // import "./css/navbar.css";
 // import "./css/home.css";

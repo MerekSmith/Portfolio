@@ -3,24 +3,30 @@ import "../css/projects.css";
 import "../css/shadowbox/component.css";
 import "../css/shadowbox/demo.css";
 import "../css/shadowbox/normalize.css";
-import projectArray from "../project_list.json";
-
-
+import projectsArray from "../project_list.json";
 
 const Project = props => (
-  <ul className="stage clearfix">
-    {projectArray.map((project, index) => {
+  <ul className='stage clearfix'>
+    {projectsArray.map((project, index) => {
       return (
-        <li className="scene" data-aos="zoom-in-up" data-aos-duration="1500" key={index}>
-          <a href={project.link} target="_blank" rel="noopener noreferrer">
-            <div className="movie">
-              <div className="poster" style={{backgroundImage: `url(${project.image})`}}>
-              {/* <header>
+        <li
+          className='scene'
+          data-aos='zoom-in-up'
+          data-aos-duration='1500'
+          key={index}
+        >
+          <a href={project.link} target='_blank' rel='noopener noreferrer'>
+            <div className='movie'>
+              <div
+                className='poster'
+                style={{ backgroundImage: `url(${project.image})` }}
+              >
+                {/* <header>
                 <h1>{project.title}</h1>
               </header>
               <div className="project-image" /> */}
               </div>
-              <div className="info">
+              <div className='info'>
                 <header>
                   <h1>{project.title}</h1>
                 </header>
