@@ -115,7 +115,7 @@ const Navbar = props => (
         </Link>
         {/* <div className='resume-container'> */}
         <a
-          href='https://drive.google.com/file/d/1KhrPkaNFVGLsKodvtapi0Y50yko9TePg/view?usp=sharing'
+          href='https://drive.google.com/drive/folders/1JnFQZ9LDNUtdHTU85wx6kZgRWm6cADWk'
           target='_blank'
           rel='noopener noreferrer'
           className='btn btn-danger nav-resume-btn'
