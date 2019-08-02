@@ -2,7 +2,7 @@
   {
     "title": "The Colony",
     "description": "This is a game similiar to Jackbox and One Night Ultimate Wearwolf. This full stack MERN app is meant to act as the moderator and would allow people to connect to a unique room using their phones. Socket.io is used to allow players to perform actions and vote with real time updates to all devices connected, as well as allowing multiple games to exist simultaneously.",
-    "technologies": "React, Redux, Socket.io, MongoDB, Mongoose, Express, Node, and Google Oauth.",
+    "technologies": "React, Redux, Socket.io, MongoDB, Mongoose, Express, Node, and Google oAuth.",
     "link": "https://the-colony.herokuapp.com/",
     "github": "https://github.com/MerekSmith/Colony",
     "type": "Personal",
@@ -11,7 +11,7 @@
   {
     "title": "Devconnector Social Network",
     "description": "This is a full stack MERN app which is meant to be a social network for developers. It includes token authentication for logins, Redux for state management, and allows users to create a profile, add credientials, and post comments.",
-    "technologies": "React, Redux, Mongodb, Mongoose, Express, Node, Bootstrap, React-Router, Oauth, classnames.",
+    "technologies": "React, Redux, Mongodb, Mongoose, Express, Node, Bootstrap, React-Router, oAuth, classnames.",
     "link": "https://devconnector-mernstack.herokuapp.com/",
     "github": "https://github.com/MerekSmith/devconnector-mernstack",
     "type": "Online Course",
@@ -20,7 +20,7 @@
   {
     "title": "Emaily",
     "description": "This is a full stack MERN app which allows users to send out surveys to mutiple clients requesting feedback. The users pay for credits using Stripe and the email service utilizes SendGrid. When clients respond to their emails, the user can see the responses on their survey dashboard. This app uses GoogleAuth for logging in.",
-    "technologies": "React, Redux, Mongodb, Mongoose, Express, Node, Bootstrap, React-Router, GoogleAuth, Stripe, SendGrid.",
+    "technologies": "React, Redux, Mongodb, Mongoose, Express, Node, Bootstrap, React-Router, Google oAuth, Stripe, SendGrid.",
     "link": "https://blooming-ravine-37747.herokuapp.com/",
     "github": "https://github.com/MerekSmith/Emaily",
     "type": "Online Course",
