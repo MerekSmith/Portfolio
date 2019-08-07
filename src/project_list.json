@@ -1,7 +1,7 @@
 [
   {
     "title": "The Colony",
-    "description": "This is a game similiar to Jackbox and One Night Ultimate Wearwolf. This full stack MERN app is meant to act as the moderator and would allow people to connect to a unique room using their phones. Socket.io is used to allow players to perform actions and vote with real time updates to all devices connected, as well as allowing multiple games to exist simultaneously.",
+    "description": "This is a game similar to Jackbox and One Night Ultimate Werewolf. This full stack MERN app is meant to act as the moderator and would allow people to connect to a unique room using their phones. Socket.io is used to allow players to perform actions and vote with real time updates to all devices connected, as well as allowing multiple games to exist simultaneously.",
     "technologies": "React, Redux, Socket.io, MongoDB, Mongoose, Express, Node, and Google oAuth.",
     "link": "https://the-colony.herokuapp.com/",
     "github": "https://github.com/MerekSmith/Colony",
