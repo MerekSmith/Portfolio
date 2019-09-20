@@ -90,6 +90,15 @@
     "image": "./assets/projects/avengers_game.jpg"
   },
   {
+    "title": "Interactive CSS Animations",
+    "description": "This is a simple example of CSS animations done through CSS and Javascript. It takes advantage of flexbox and sizing views like vh, vw, and vmin to control location, spacing, and scalability. At the end, it also utilizes an SVG image to look as if it is writing on the screen.",
+    "technologies": "HTML, CSS Animations, Javascript, and SVG images.",
+    "link": "https://mereksmith.github.io/InteractiveCSS",
+    "github": "https://github.com/MerekSmith/InteractiveCSS",
+    "type": "Online Course",
+    "image": "./assets/projects/interactivecss.png"
+  },
+  {
     "title": "Barcode (Project 2)",
     "description": "This was my 2nd team project that was designed to be a web based inventory management system. It can allow an employee to enter in new items easily and allows consumers to instantly see an item that is now available for sale.",
     "technologies": "Handlebars, SQL Server, Node, and Express, jQuery, Datatable.",
