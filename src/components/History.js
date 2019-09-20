@@ -69,9 +69,8 @@ const History = props =>
     <div className={props.historyType}>
       {schools.map((school, index) => {
         return (
-          <div className='row school' key={index}>
-            <div className='col-md-3' />
-            <div className='col-md-2 logo'>
+          <div className='row school justify-content-md-center' key={index}>
+            <div className='col-md-1 logo'>
               <a href={school.link} target='_blank' rel='noopener noreferrer'>
                 <img
                   src={school.logo}
@@ -80,7 +79,7 @@ const History = props =>
                 />
               </a>
             </div>
-            <div className='col-md-7 school-col'>
+            <div className='col-md-4 school-col'>
               <div className='degree'>{school.degree}</div>
               <span> {school.graduated} </span>
               <span className='divider'> | </span>
@@ -95,14 +94,13 @@ const History = props =>
     <div className={props.historyType}>
       {jobs.map((job, index) => {
         return (
-          <div className='row job' key={index}>
-            <div className='col-md-3' />
-            <div className='col-md-2 logo'>
+          <div className='row job justify-content-md-center' key={index}>
+            <div className='col-md-1 logo'>
               <a href={job.link} target='_blank' rel='noopener noreferrer'>
                 <img src={job.logo} alt={job.alt} className='job-logo' />
               </a>
             </div>
-            <div className='col-md-7 job-col'>
+            <div className='col-md-4 job-col'>
               <div className='company'>{job.company}</div>
               <span> {job.title} </span>
               <span className='divider'> | </span>

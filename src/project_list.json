@@ -91,7 +91,7 @@
   },
   {
     "title": "Interactive CSS Animations",
-    "description": "This is a simple example of CSS animations done through CSS and Javascript. It takes advantage of flexbox and sizing views like vh, vw, and vmin to control location, spacing, and scalability. At the end, it also utilizes an SVG image to look as if it is writing on the screen.",
+    "description": "This is a simple example of CSS animations done through CSS and Javascript. It takes advantage of flexbox and sizing views like vh, vw, and vmin to control location, spacing, and scalability. At the end, it also utilizes an SVG image to look as if it is writing on the screen. Just click in the slide area to see the animation.",
     "technologies": "HTML, CSS Animations, Javascript, and SVG images.",
     "link": "https://mereksmith.github.io/InteractiveCSS",
     "github": "https://github.com/MerekSmith/InteractiveCSS",
