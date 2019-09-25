@@ -45,6 +45,15 @@
     "image": "./assets/projects/hangman_game.png"
   },
   {
+    "title": "Material UI and React Pixabay Image Finder",
+    "description": "This is a simple image finder project that utlizes React and Material UI components. As you type in the search bar, it will pull images from Pixabay.",
+    "technologies": "React, Material-UI, Pixabay API.",
+    "link": "https://pixabay-material-ui.herokuapp.com/",
+    "github": "https://github.com/MerekSmith/Material-UI-React-pixabayApi",
+    "type": "Online Course",
+    "image": "./assets/projects/material-ui-logo.png"
+  },
+  {
     "title": "The Simpsons Memory Game",
     "description": "This is a fun, memory game where you try to select a different character each time without selecting a duplicate. This was created using a JSON file that contains 54 Simpsons characters that are randomly selected each time. The game keeps track of the high score during each session.",
     "technologies": "React.",
