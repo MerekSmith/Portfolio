@@ -6,7 +6,7 @@ class gameTable extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      games: [],
+      games: null,
       collection: []
     };
   }
@@ -14,14 +14,37 @@ class gameTable extends Component {
   componentDidMount() {
     API.gameCollection().then(res => {
       let games = [];
-
+      console.log(res.data);
       res.data.forEach(game => {
-        if (game.owned) {
+        const {
+          owned,
+          thumbnail,
+          gameId,
+          name,
+          yearPublished,
+          isExpansion,
+          rank
+        } = game;
+
+        if (owned) {
           let gameData = {
-            name: game.name,
-            yearPublished: game.yearPublished,
-            isExpansion: game.isExpansion ? "Yes" : "No",
-            bggRank: game.rank
+            image: (
+              <a
+                href={`https://boardgamegeek.com/boardgame/${gameId}`}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <img
+                  className='game-thumbnail'
+                  src={thumbnail}
+                  alt='thumbnail'
+                />
+              </a>
+            ),
+            name: name,
+            yearPublished: yearPublished,
+            isExpansion: isExpansion ? "Yes" : "No",
+            bggRank: rank
           };
           games.push(gameData);
         }
@@ -35,8 +58,17 @@ class gameTable extends Component {
   }
 
   render() {
+    const { games } = this.state;
+
     const data = {
       columns: [
+        {
+          label: "Box Cover",
+          field: "image",
+          sort: "asc",
+          width: 30,
+          className: "game-thumbnail-container"
+        },
         {
           label: "Name",
           field: "name",
@@ -62,17 +94,21 @@ class gameTable extends Component {
           width: 100
         }
       ],
-      rows: this.state.games
+      rows: games
     };
     return (
-      <div>
-        <h1 style={{ textAlign: "center" }}>Game Collection</h1>
-        <h5 style={{ textAlign: "center" }}>
+      <div className='games-container'>
+        <h1>Game Collection</h1>
+        <h5>
           *This data of my personal game collection comes from a custom
           BoardGameGeek API. This is to both demonstrate usage of an API and to
           display what games I own.
         </h5>
-        <MDBDataTable striped bordered hover data={data} />
+        {games ? (
+          <MDBDataTable striped bordered hover data={data} />
+        ) : (
+          <div className='spinner-border text-primary'></div>
+        )}
       </div>
     );
   }

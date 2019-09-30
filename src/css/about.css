@@ -231,6 +231,32 @@ h2 {
   opacity: 0.8;
 }
 
+.games-container {
+  text-align: center;
+}
+
+.games-container > h5 {
+  margin: 20px 20%;
+}
+
+.spinner-border {
+  margin: 30px 0;
+}
+
+thead {
+  margin: auto;
+}
+
+/* This will center the first table data column in each row, which should be the box cover thumbnail. */
+tbody > tr > td:nth-child(1) {
+  text-align: center;
+}
+
+.game-thumbnail {
+  height: 12vmin;
+  margin: auto;
+}
+
 /* Updates the background position if using IE/Edge. Navbar becomes fixed so this makes the background go back up to the actual top of page. */
 .ie-parallax {
   background-position-y: 0px !important;
