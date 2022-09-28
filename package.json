@@ -6,7 +6,7 @@
   "dependencies": {
     "animate.css": "^3.7.0",
     "aos": "^2.3.4",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
